@@ -93,7 +93,11 @@
 
 ## 数据结构
 
-**[《大话数据结构》](https://book.douban.com/subject/6424904/)**：入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
+**[《大话数据结构》](https://book.douban.com/subject/6424904/)**
+
+![](https://img-blog.csdnimg.cn/20210328180900481.png)
+
+入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
 
 ## 操作系统
 
@@ -342,7 +346,7 @@ SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了
 
 **《JavaGuide面试突击版》**
 
-![img](file:///Users/guide/Documents/GitHub/awesome-cs-books/docs/images/c8188444-68ba-4b86-a22e-d3b2bb3565d6.png?lastModify=1616917167)
+![](https://img-blog.csdnimg.cn/20210329140905609.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
 *谁看谁说好！哈哈！*
 
@@ -350,7 +354,7 @@ Guide自己开源的，涵盖了Java后端方面的大部分知识点比如 集�
 
 在我的公众号后台回复 ：“**面试突击**”即可免费获取。
 
-![我的公众号](file:///Users/guide/Documents/GitHub/awesome-cs-books/docs/images/format,png.png?lastModify=1616917167)
+![](https://img-blog.csdnimg.cn/20210329140915606.png)
 
 # 软件质量
 
