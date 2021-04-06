@@ -1,3 +1,5 @@
+[下面推荐的书籍的PDF版本打包下载！没有解压密码！没有解压密码！没有解压密码！](#PDF-获取)
+
 Github地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
 
 码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
@@ -666,3 +668,23 @@ Java 程序员必看！
 以上是我针对本科计算机专业各个课程的倾力解读，如有不妥，请多加指正！
 
 # PDF 获取
+
+## 计算机基础
+
+![](https://oscimg.oschina.net/oscnet/up-b270743c8190a69a54683e084b5543e0e91.png)
+
+打包下载（涵盖上面提到的大部分书籍）。没有解压密码！没有解压密码！没有解压密码！
+
+扫描下面的二维码或者微信搜索 “**Github掘金计划**” 关注后回复“**书籍**”即可获取下载地址。
+
+<img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-2@main/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/qrcode_for_gh_8b9b6034ac19_258.jpg" style="text-align:right"/>
+
+## Java
+
+![](https://oscimg.oschina.net/oscnet/up-67e0a8d1ce659a022b7b6db5163ba0f7aeb.png)
+
+打包下载（涵盖上面提到的大部分书籍）。没有解压密码！没有解压密码！没有解压密码！
+
+扫描下面的二维码或者微信搜索 “**JavaGuide**” 关注后回复“**书籍**”即可获取下载地址。
+
+![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
