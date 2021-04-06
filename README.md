@@ -205,6 +205,8 @@ Github 上就有一些名校的计算机网络试验/Project：
 2. **在课程的中期阶段，熟练掌握 ER 图的应用，并强化数据库设计中的理论部分。** ER 图的熟练应用可以更加轻松地设计出关系数据库模式，而理论部分同样不能忽视，设计理论的运用决定了数据库的正确性和健壮性。
 3. 而在课程的后期阶段，主要就是以理论居多，而且这些理论并不容易能找到配套的实验练习。**这里再次强调，凡是理论知识的学习，尽量要结合图解的方式**。
 
+### 数据库基础
+
 教材的话，强烈推荐 **[《数据库系统概念》](https://book.douban.com/subject/10548379/)** ，这本书涵盖了数据库系统的全套概念，知识体系清晰，是学习数据库系统非常经典的教材！不是参考书！
 
 ![](https://img-blog.csdnimg.cn/20210406151403905.png)
@@ -220,6 +222,20 @@ Github 上就有一些名校的计算机网络试验/Project：
 ![](https://img-blog.csdnimg.cn/20210406154601698.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
 纸上学来终觉浅 绝知此事要躬行！强烈推荐 CS 专业的小伙伴一定要多多实践！！！
+
+### MySQL
+
+一般企业项目开发中，使用 MySQL 比较多。如果你要学习 MySQL 的话，可以看下面这 3 本书籍：
+
+- **[《MySQL必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合MySQL新手阅读，很棒的入门教材。
+- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： 学习 MySQL 必看，属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，拿我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你你一定要认真看一下。
+- **[《MySQL技术内幕》](https://book.douban.com/subject/24708143/)** ：你想深入了解MySQL存储引擎的话，看这本书准没错！
+
+![](https://oscimg.oschina.net/oscnet/up-3d31e762933f9e50cc7170b2ebd8433917b.png)
+
+### Redis
+
+
 
 ## 编译原理
 
