@@ -31,74 +31,6 @@
 
 这部分内容我不光会推荐书籍，还会顺便推荐一些我觉得不错的教学视频&Project。
 
-## 算法
-
-### 入门
-
-先来看三本入门书籍，这三本入门书籍中的任何一本拿来作为入门学习都非常好。
-
-1. [《我的第一本算法书》](https://book.douban.com/subject/30357170/) 
-2. [《算法图解》](https://book.douban.com/subject/26979890/)
-3. [《啊哈!算法》](https://book.douban.com/subject/25894685/)
-
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210327104418851.png)
-
-我个人比较倾向于 **[《我的第一本算法书》](https://book.douban.com/subject/30357170/)** 这本书籍，虽然它相比于其他两本书集它的豆瓣评分略低一点。我觉得它的配图以及讲解是这三本书中最优秀，唯一比较明显的问题就是没有代码示例。但是，我觉得这不影响它是一本好的算法书籍。因为本身下面这三本入门书籍的目的就不是通过代码来让你的算法有多厉害，只是作为一本很好的入门书籍让你进入算法学习的大门。
-
-### 经典
-
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s29107491.jpg)
-
-**[《算法》](https://book.douban.com/subject/19952400/)**
-
-我在大二的时候被我们的一个老师强烈安利过！自己也在当时购买了一本放在宿舍，到离开大学的时候自己大概看了一半多一点。因为内容实在太多了！另外，这本书还提供了详细的 Java 代码，非常适合学习 Java 的朋友来看，可以说是 Java 程序员的必备书籍之一了。
-
-> **下面这些书籍都是经典中的经典，但是阅读起来难度也比较大，不做太多阐述，神书就完事了！**
-
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s4687321.jpg)
-
-**[《编程珠玑》](https://book.douban.com/subject/3227098/)**
-
-经典名著，ACM 冠军、亚军这种算法巨佬都强烈推荐的一本书籍。这本书的作者也非常厉害，Java 之父 James Gosling 就是他的学生。
-
-很多人都说这本书不是教你具体的算法，而是教你一种编程的思考方式。这种思考方式不仅仅在编程领域适用，在其他同样适用。
-
-![](https://img-blog.csdnimg.cn/20210327105649620.png)
-
-**[《算法设计手册》](https://book.douban.com/subject/4048566/)**
-
-这是一本被Github上的爆火的计算机自学项目 [Teach Yourself Computer Science](https://link.zhihu.com/?target=https%3A//teachyourselfcs.com/) 强烈推荐的一本算法书籍。
-
-类似的神书还有 [《算法导论》](https://book.douban.com/subject/20432061/)、[《计算机程序设计艺术（第1卷）》](https://book.douban.com/subject/1130500/) 。
-
-![](https://img-blog.csdnimg.cn/20210327105804641.png)
-
-![](https://img-blog.csdnimg.cn/20210327105858764.png)
-
-### 面试
-
-![](https://img-blog.csdnimg.cn/20210327110700786.png)
-
-**[《剑指Offer》](https://book.douban.com/subject/6966465/)**
-
-这本面试宝典上面涵盖了很多经典的算法面试题，如果你要准备大厂面试的话一定不要错过这本书。
-
-《剑指 Offer》 对应的算法编程题部分的开源项目解析：[CodingInterviews](https://link.zhihu.com/?target=https%3A//github.com/gatieme/CodingInterviews) 。
-
-![](https://img-blog.csdnimg.cn/20210327110712728.png)
-
-**[《程序员代码面试指南（第2版）》](https://book.douban.com/subject/30422021/)**
-
-题目相比于《剑指 offer》 来说要难很多，题目涵盖面相比于《剑指 offer》也更加全面。全书一共有将近 300 道真实出现过的经典代码面试题。
-
-## 数据结构
-
-**[《大话数据结构》](https://book.douban.com/subject/6424904/)**
-
-![](https://img-blog.csdnimg.cn/20210328180900481.png)
-
-入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
-
 ## 操作系统
 
 操作系统中的很多思想、很多经典的算法，你都可以在我们日常开发使用的各种工具或者框架中找到它们的影子。
@@ -189,9 +121,81 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 最后再补充一个：[浙江大学的计算机网络课程资料、教材和试卷](https://github.com/QSCTech/zju-icicles/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80) 。需要的小伙伴请查收！
 
+## 算法
+
+### 入门
+
+先来看三本入门书籍，这三本入门书籍中的任何一本拿来作为入门学习都非常好。
+
+1. [《我的第一本算法书》](https://book.douban.com/subject/30357170/) 
+2. [《算法图解》](https://book.douban.com/subject/26979890/)
+3. [《啊哈!算法》](https://book.douban.com/subject/25894685/)
+
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210327104418851.png)
+
+我个人比较倾向于 **[《我的第一本算法书》](https://book.douban.com/subject/30357170/)** 这本书籍，虽然它相比于其他两本书集它的豆瓣评分略低一点。我觉得它的配图以及讲解是这三本书中最优秀，唯一比较明显的问题就是没有代码示例。但是，我觉得这不影响它是一本好的算法书籍。因为本身下面这三本入门书籍的目的就不是通过代码来让你的算法有多厉害，只是作为一本很好的入门书籍让你进入算法学习的大门。
+
+### 经典
+
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s29107491.jpg)
+
+**[《算法》](https://book.douban.com/subject/19952400/)**
+
+我在大二的时候被我们的一个老师强烈安利过！自己也在当时购买了一本放在宿舍，到离开大学的时候自己大概看了一半多一点。因为内容实在太多了！另外，这本书还提供了详细的 Java 代码，非常适合学习 Java 的朋友来看，可以说是 Java 程序员的必备书籍之一了。
+
+> **下面这些书籍都是经典中的经典，但是阅读起来难度也比较大，不做太多阐述，神书就完事了！**
+
+![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s4687321.jpg)
+
+**[《编程珠玑》](https://book.douban.com/subject/3227098/)**
+
+经典名著，ACM 冠军、亚军这种算法巨佬都强烈推荐的一本书籍。这本书的作者也非常厉害，Java 之父 James Gosling 就是他的学生。
+
+很多人都说这本书不是教你具体的算法，而是教你一种编程的思考方式。这种思考方式不仅仅在编程领域适用，在其他同样适用。
+
+![](https://img-blog.csdnimg.cn/20210327105649620.png)
+
+**[《算法设计手册》](https://book.douban.com/subject/4048566/)**
+
+这是一本被Github上的爆火的计算机自学项目 [Teach Yourself Computer Science](https://link.zhihu.com/?target=https%3A//teachyourselfcs.com/) 强烈推荐的一本算法书籍。
+
+类似的神书还有 [《算法导论》](https://book.douban.com/subject/20432061/)、[《计算机程序设计艺术（第1卷）》](https://book.douban.com/subject/1130500/) 。
+
+![](https://img-blog.csdnimg.cn/20210327105804641.png)
+
+![](https://img-blog.csdnimg.cn/20210327105858764.png)
+
+### 面试
+
+![](https://img-blog.csdnimg.cn/20210327110700786.png)
+
+**[《剑指Offer》](https://book.douban.com/subject/6966465/)**
+
+这本面试宝典上面涵盖了很多经典的算法面试题，如果你要准备大厂面试的话一定不要错过这本书。
+
+《剑指 Offer》 对应的算法编程题部分的开源项目解析：[CodingInterviews](https://link.zhihu.com/?target=https%3A//github.com/gatieme/CodingInterviews) 。
+
+![](https://img-blog.csdnimg.cn/20210327110712728.png)
+
+**[《程序员代码面试指南（第2版）》](https://book.douban.com/subject/30422021/)**
+
+题目相比于《剑指 offer》 来说要难很多，题目涵盖面相比于《剑指 offer》也更加全面。全书一共有将近 300 道真实出现过的经典代码面试题。
+
+## 数据结构
+
+**[《大话数据结构》](https://book.douban.com/subject/6424904/)**
+
+![](https://img-blog.csdnimg.cn/20210328180900481.png)
+
+入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
+
+# 计算机专业课
+
 ## 数据库
 
-数据库系统这门课在程序员的职业规划中也是非常重要的一门课，甚至有些信息管理的专业的也要开设这门课。说这门课重要，是因为对于程序员的发展来说，一方面关系数据库系统、SQL 语言以及数据库的三段设计（概念设计、逻辑设计和物理设计）都是开发数据库应用程序的必备技能，**通常在数据库应用开发岗位的面试中，数据库的设计是面试官青睐的考点，如何能根据需求分析并设计出完善的数据库系统，是程序员的必备技能，\**设计好了完善的数据库系统之后，再用 SQL 语言等工具对其进行实现，那么这些其实就是个人的编码能力了。另一方面，数据库中的查询处理、查询优化、并发控制、事务管理、日志管理等内容，都是数据库中稍微进阶一点的技能，对于一些对岗位要求比较高的，这些技术同样要求熟练掌握。\** 对一些查询优化的等数据库底层实现的内容，也是新型数据库开发的前置基础技能，对于一些研究型人才来说，也是非常重要的。**
+数据库系统这门课在程序员的职业规划中也是非常重要的一门课，甚至有些信息管理的专业的也要开设这门课。说这门课重要，是因为对于程序员的发展来说，一方面关系数据库系统、SQL 语言以及数据库的三段设计（概念设计、逻辑设计和物理设计）都是开发数据库应用程序的必备技能，通常在数据库应用开发岗位的面试中，数据库的设计是面试官青睐的考点，如何能根据需求分析并设计出完善的数据库系统，是程序员的必备技能，设计好了完善的数据库系统之后，再用 SQL 语言等工具对其进行实现，那么这些其实就是个人的编码能力了。
+
+另一方面，数据库中的查询处理、查询优化、并发控制、事务管理、日志管理等内容，都是数据库中稍微进阶一点的技能，对于一些对岗位要求比较高的，这些技术同样要求熟练掌握。对一些查询优化的等数据库底层实现的内容，也是新型数据库开发的前置基础技能，对于一些研究型人才来说，也是非常重要的。
 
 数据库系统与其他计算机专业课一样，知识体系非常清晰，而且他有一个非常突出的特点，就是实际与理论相结合。SQL 语言，数据库设计等，这些都属于实践应用部分，而对于一些范式定义，两段锁协议并发控制等，这些就偏向于理论多一些。要想学好数据库系统，建议大家：
 
@@ -205,9 +209,32 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 
 
+
+
 [如何开发一个简单的数据库](https://cstack.github.io/db_tutorial/)
 
+## 编译原理
 
+编译原理相比于前面介绍的专业课，地位显得不那么重要了。编译原理的重要性主要体现在：
+
+- 底层语言、引擎或高级语言的开发，如 MySQL，Java 等
+- 操作系统或嵌入式系统的开发
+- 词法、语法、语义的思想，以及自动机思想
+
+**编译原理的重要前置课程就是形式语言与自动机，自动机的思想在词法分析当中有着重要应用，学习了这门课后，应该就会发现许多场景下，自动机算法的妙用了。**
+
+总的来说，这门课对于各位程序员的职业发展来说，相对不那么重要，但是从难度上来说，学习这门课可以对编程思想有一个较好的巩固。学习资源的话，除了课堂上的幻灯片课件以外，还可以把 《编译原理》 这本书作为参考书，用以辅助自己学不懂的地方（大家口中的龙书，想要啃下来还是有一定难度的）。
+
+![](https://img-blog.csdnimg.cn/20210406152148373.png)
+
+其他书籍推荐:
+
+- **[《现代编译原理》](https://book.douban.com/subject/30191414/)** ：编译原理的入门书。
+- **[《编译器设计》](https://book.douban.com/subject/20436488/)**  ： 覆盖了编译器从前端到后端的全部主题。
+
+我上面推荐的书籍的难度还是比较高的，真心很难坚持看完。这里强烈推荐[哈工大的编译原理视频课程](https://www.icourse163.org/course/HIT-1002123007)，真心不错，还是国家精品课程，关键还是又漂亮有温柔的美女老师讲的！
+
+![](https://img-blog.csdnimg.cn/20210406152847824.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
 # 通用课
 
