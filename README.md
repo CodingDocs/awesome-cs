@@ -11,7 +11,7 @@
   - [操作系统](#操作系统)
   - [计算机网络](#计算机网络)
 - [Java](#java)
-  - [Java基础](#java基础)
+  - [Java 基础](#java基础)
   - [并发](#并发)
   - [JVM](#jvm)
   - [常用框架](#常用框架)
@@ -53,16 +53,18 @@
 
 如果你比较喜欢动手，对于理论知识比较抵触的话，我推荐你看看 **[《30 天自制操作系统》](https://book.douban.com/subject/11530329/)** ，这本书会手把手教你编写一个操作系统。
 
+纸上学来终觉浅 绝知此事要躬行！强烈推荐 CS 专业的小伙伴一定要多多实践！！！
+
 ![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/s11138117.jpg)
 
 以及一个学弟手写的操作系统内核： **[《从零实现一个操作系统内核！》](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIwNDgzMzI3Mg%3D%3D%26mid%3D2247484074%26idx%3D1%26sn%3D56fd0c0629bc6ac24180e1bb6aaea2b2%26chksm%3D973b6a3da04ce32b2575b206d0edc0fb70328d77325cbdddd05b786d48da9613a520d812566e%26token%3D985794122%26lang%3Dzh_CN%23rd)** 。
 
 其他相关书籍推荐：
 
-- **[《自己动手写操作系统》](https://book.douban.com/subject/1422377/)**  ： 不光会带着你详细分析操作系统原理的基础，还会用丰富的实例代码，一步一步地指导你用C语言和汇编语言编写出一个具备操作系统基本功能的操作系统框架。
+- **[《自己动手写操作系统》](https://book.douban.com/subject/1422377/)** ： 不光会带着你详细分析操作系统原理的基础，还会用丰富的实例代码，一步一步地指导你用 C 语言和汇编语言编写出一个具备操作系统基本功能的操作系统框架。
 - **[《现代操作系统》](https://book.douban.com/subject/3852290/)** ： 内容很不错，不过，翻译的一般。如果你是精读本书的话，建议把课后习题都做了。
 - **[《操作系统真象还原》](https://book.douban.com/subject/26745156/)** ： 这本书的作者毕业于北京大学，前百度运维高级工程师。因为在大学期间曾重修操作系统这一科，后对操作系统进行深入研究，著下此书。
-- **[《深度探索Linux操作系统》](https://book.douban.com/subject/25743846/)** ：跟着这本书的内容走，可以让你对如何制作一套完善的 GNU/Linux 系统有了清晰的认识。
+- **[《深度探索 Linux 操作系统》](https://book.douban.com/subject/25743846/)** ：跟着这本书的内容走，可以让你对如何制作一套完善的 GNU/Linux 系统有了清晰的认识。
 - **[《操作系统设计与实现》](https://book.douban.com/subject/2044818/)** ：操作系统的权威教学教材。
 - **[《Orange'S:一个操作系统的实现》](https://book.douban.com/subject/3735649/)** ： 从只有二十行的引导扇区代码出发，一步一步地向读者呈现一个操作系统框架的完成过程。配合《操作系统设计与实现》一起食用更佳！
 
@@ -100,17 +102,17 @@
 Github 上就有一些名校的计算机网络试验/Project：
 
 - [哈工大计算机网络实验](https://github.com/rccoder/HIT-Computer-Network)
-- [《计算机网络－自顶向下方法(原书第6版)》编程作业，Wireshark实验文档的翻译和解答。](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
-- [计算机网络的期末Project，用Python编写的聊天室](https://github.com/KevinWang15/network-pj-chatroom)
-- [CMU的计算机网络课程](https://computer-networks.github.io/sp19/lectures.html)
+- [《计算机网络－自顶向下方法(原书第 6 版)》编程作业，Wireshark 实验文档的翻译和解答。](https://github.com/moranzcw/Computer-Networking-A-Top-Down-Approach-NOTES)
+- [计算机网络的期末 Project，用 Python 编写的聊天室](https://github.com/KevinWang15/network-pj-chatroom)
+- [CMU 的计算机网络课程](https://computer-networks.github.io/sp19/lectures.html)
 
 我知道，还有很多小伙伴可能比较喜欢边看视频边学习。所以，我这里再推荐几个顶好的计算机网络视频讲解。
 
-**1.[哈工大的计算机网络课程](http://www.icourse163.org/course/HIT-154005)** ：国家精品课程，截止目前已经开了10次课了。大家对这门课的评价都非常高！所以，非常推荐大家看一下！
+**1.[哈工大的计算机网络课程](http://www.icourse163.org/course/HIT-154005)** ：国家精品课程，截止目前已经开了 10 次课了。大家对这门课的评价都非常高！所以，非常推荐大家看一下！
 
 ![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-6@main/12-15-1/image-20201218141241911.png)
 
-**2.[王道考研的计算机网络](https://www.bilibili.com/video/BV19E411D78Q?from=search&seid=17198507506906312317)** ：非常适合CS专业考研的小朋友！这个视频目前在哔哩哔哩上已经有1.6w+的点赞。
+**2.[王道考研的计算机网络](https://www.bilibili.com/video/BV19E411D78Q?from=search&seid=17198507506906312317)** ：非常适合 CS 专业考研的小朋友！这个视频目前在哔哩哔哩上已经有 1.6w+的点赞。
 
 ![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-6@main/12-18-1/image-20201218141652837.png)
 
@@ -127,7 +129,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 先来看三本入门书籍，这三本入门书籍中的任何一本拿来作为入门学习都非常好。
 
-1. [《我的第一本算法书》](https://book.douban.com/subject/30357170/) 
+1. [《我的第一本算法书》](https://book.douban.com/subject/30357170/)
 2. [《算法图解》](https://book.douban.com/subject/26979890/)
 3. [《啊哈!算法》](https://book.douban.com/subject/25894685/)
 
@@ -157,9 +159,9 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 **[《算法设计手册》](https://book.douban.com/subject/4048566/)**
 
-这是一本被Github上的爆火的计算机自学项目 [Teach Yourself Computer Science](https://link.zhihu.com/?target=https%3A//teachyourselfcs.com/) 强烈推荐的一本算法书籍。
+这是一本被 Github 上的爆火的计算机自学项目 [Teach Yourself Computer Science](https://link.zhihu.com/?target=https%3A//teachyourselfcs.com/) 强烈推荐的一本算法书籍。
 
-类似的神书还有 [《算法导论》](https://book.douban.com/subject/20432061/)、[《计算机程序设计艺术（第1卷）》](https://book.douban.com/subject/1130500/) 。
+类似的神书还有 [《算法导论》](https://book.douban.com/subject/20432061/)、[《计算机程序设计艺术（第 1 卷）》](https://book.douban.com/subject/1130500/) 。
 
 ![](https://img-blog.csdnimg.cn/20210327105804641.png)
 
@@ -169,7 +171,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ![](https://img-blog.csdnimg.cn/20210327110700786.png)
 
-**[《剑指Offer》](https://book.douban.com/subject/6966465/)**
+**[《剑指 Offer》](https://book.douban.com/subject/6966465/)**
 
 这本面试宝典上面涵盖了很多经典的算法面试题，如果你要准备大厂面试的话一定不要错过这本书。
 
@@ -177,7 +179,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ![](https://img-blog.csdnimg.cn/20210327110712728.png)
 
-**[《程序员代码面试指南（第2版）》](https://book.douban.com/subject/30422021/)**
+**[《程序员代码面试指南（第 2 版）》](https://book.douban.com/subject/30422021/)**
 
 题目相比于《剑指 offer》 来说要难很多，题目涵盖面相比于《剑指 offer》也更加全面。全书一共有将近 300 道真实出现过的经典代码面试题。
 
@@ -207,11 +209,17 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ![](https://img-blog.csdnimg.cn/20210406151403905.png)
 
+如果你觉得书籍比较枯燥，自己坚持不下来的话，我推荐你可以先看看一些不错的视频。就比如北京师范大学的[《数据库系统原理》](https://www.icourse163.org/course/BNU-1002842007)这个就很不错。
 
+这个课程的老师讲的非常详细，而且每一小节的作业设计的也与所讲知识很贴合，后面还有很多配套实验。
 
+![](https://img-blog.csdnimg.cn/20210406154403673.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
+如果你比较喜欢动手，对于理论知识比较抵触的话，我推荐你看看[《如何开发一个简单的数据库》](https://cstack.github.io/db_tutorial/) ，这个 project 会手把手教你编写一个简单的数据库。
 
-[如何开发一个简单的数据库](https://cstack.github.io/db_tutorial/)
+![](https://img-blog.csdnimg.cn/20210406154601698.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
+
+纸上学来终觉浅 绝知此事要躬行！强烈推荐 CS 专业的小伙伴一定要多多实践！！！
 
 ## 编译原理
 
@@ -230,7 +238,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 其他书籍推荐:
 
 - **[《现代编译原理》](https://book.douban.com/subject/30191414/)** ：编译原理的入门书。
-- **[《编译器设计》](https://book.douban.com/subject/20436488/)**  ： 覆盖了编译器从前端到后端的全部主题。
+- **[《编译器设计》](https://book.douban.com/subject/20436488/)** ： 覆盖了编译器从前端到后端的全部主题。
 
 我上面推荐的书籍的难度还是比较高的，真心很难坚持看完。这里强烈推荐[哈工大的编译原理视频课程](https://www.icourse163.org/course/HIT-1002123007)，真心不错，还是国家精品课程，关键还是又漂亮有温柔的美女老师讲的！
 
@@ -285,19 +293,19 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 这篇文章推荐了大部分我所读过的优秀书籍，虽然部分可能没看完。答应我，一定要看到最后，看完之后应该不会再纠结要看什么书了。走起！！！
 
-*这篇文章未涵盖计算机基础比如算法和数据结构、数据库、分布式、微服务方面的书籍，这个留在下一篇文章推荐。*
+_这篇文章未涵盖计算机基础比如算法和数据结构、数据库、分布式、微服务方面的书籍，这个留在下一篇文章推荐。_
 
-## Java基础
+## Java 基础
 
 **[《Head First Java》](https://book.douban.com/subject/2000732/)**
 
 ![](https://img-blog.csdnimg.cn/20210328154409343.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
-这是我的 Java 启蒙书籍了。因为是我学习Java看的第一本书，所以，我对其有不一样的情感。
+这是我的 Java 启蒙书籍了。因为是我学习 Java 看的第一本书，所以，我对其有不一样的情感。
 
-*ps:我是当时学完了 C语言之后才开始学习 Java 的，刚开始看这本书感觉很轻松有趣，可以说是我学习编程初期最喜欢的一本书了。*
+_ps:我是当时学完了 C 语言之后才开始学习 Java 的，刚开始看这本书感觉很轻松有趣，可以说是我学习编程初期最喜欢的一本书了。_
 
-有些人说这本书不适合编程新手阅读？（问号脸）  我个人觉得还是很适合稍微有一点点经验的新手来阅读的，当然也适合我们用来温故 Java 知识点。
+有些人说这本书不适合编程新手阅读？（问号脸） 我个人觉得还是很适合稍微有一点点经验的新手来阅读的，当然也适合我们用来温故 Java 知识点。
 
 > ps:刚入门编程，最好的方式还是通过看视频来学习。
 
@@ -315,31 +323,31 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ![](https://img-blog.csdnimg.cn/20210328154443491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
-我第一次看的时候还觉得有点枯燥，那时候还在上大二，看了 1/3就没看下去了。
+我第一次看的时候还觉得有点枯燥，那时候还在上大二，看了 1/3 就没看下去了。
 
-这本书被很多人称之为Java领域的圣经（*感觉有点过了~~~*）。不太推荐编程初学者阅读，有点劝退的味道，稍微有点基础后阅读更好。
+这本书被很多人称之为 Java 领域的圣经（_感觉有点过了~~~_）。不太推荐编程初学者阅读，有点劝退的味道，稍微有点基础后阅读更好。
 
 这本书到现在我也才看了一半左右，内容确实也比较多，而且稍微有点枯燥，但是比较权威。我一般也是拿来当做工具书参考。
 
-**[《Java性能权威指南》](https://book.douban.com/subject/26740520/)**
+**[《Java 性能权威指南》](https://book.douban.com/subject/26740520/)**
 
 ![](https://img-blog.csdnimg.cn/20210328154205645.png)
 
-*希望能有更多这Java性能优化方面的好书！*
+_希望能有更多这 Java 性能优化方面的好书！_
 
 O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是每个 Java 从业者必备知识。
 
 这本书介绍的实战内容很不错，尤其是 JVM 调优，缺点也比较明显，就是内容稍微有点老。市面上这种书很少。这本书不适合初学者，建议对 Java 语言已经比价掌握了再看。另外，阅读之前，最好先看看周志明大佬的《深入理解 Java 虚拟机》。
 
-**[《Java 8实战》](https://book.douban.com/subject/26772632/)**
+**[《Java 8 实战》](https://book.douban.com/subject/26772632/)**
 
 ![](https://img-blog.csdnimg.cn/20210328154754434.png)
 
-*还没用上 Java 8 的可以反思一下了，还没用过 Lambda 也可以反思一下了。*
+_还没用上 Java 8 的可以反思一下了，还没用过 Lambda 也可以反思一下了。_
 
-现在大部分公司至少都用到了 Java 8 , Java 8算是一个里程碑式的版本，提供了很多有用的新特性比如 Lambda、流式处理等等。
+现在大部分公司至少都用到了 Java 8 , Java 8 算是一个里程碑式的版本，提供了很多有用的新特性比如 Lambda、流式处理等等。
 
-这本书是学习 Java 8 新特性很好的选择，它内容包括 Lambda、流和函数式编程等Java8新特性。实战系列的一贯风格让自己快速上手应用起来。
+这本书是学习 Java 8 新特性很好的选择，它内容包括 Lambda、流和函数式编程等 Java8 新特性。实战系列的一贯风格让自己快速上手应用起来。
 
 ## 并发
 
@@ -347,7 +355,7 @@ O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是�
 
 ![《Java 并发编程之美》](https://img-blog.csdnimg.cn/img_convert/c6eaa091d662cb160e1209ddb5efc94b.png)
 
-*这本书还是非常适合我们用来学习 Java 多线程的。这本书的讲解非常通俗易懂，作者从并发编程基础到实战都是信手拈来。*
+_这本书还是非常适合我们用来学习 Java 多线程的。这本书的讲解非常通俗易懂，作者从并发编程基础到实战都是信手拈来。_
 
 另外，这本书的作者加多自身也会经常在网上发布各种技术文章。这本书也是加多大佬这么多年在多线程领域的沉淀所得的结果吧！他书中的内容基本都是结合代码讲解，非常有说服力！
 
@@ -367,13 +375,13 @@ O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是�
 
 这本书的质量也是非常过硬！给作者们点个赞！这本书有统一的排版规则和语言风格、清晰的表达方式和逻辑。并且每篇文章初稿写完后，作者们就会互相审校，合并到主分支时所有成员会再次审校，最后再通篇修订了三遍。
 
-**[《Java并发实现原理：JDK源码剖析》](https://book.douban.com/subject/35013531/)**
+**[《Java 并发实现原理：JDK 源码剖析》](https://book.douban.com/subject/35013531/)**
 
 ![](https://img-blog.csdnimg.cn/img_convert/abccc422ef3837413436f2c32ce31abc.png)
 
-这本书是去年也就是2020年新出的，所以，现在知道的人还不是很多。
+这本书是去年也就是 2020 年新出的，所以，现在知道的人还不是很多。
 
-这本书主要是对 Java Concurrent包中一些比较重要的源码进行了讲解，另外，像JMM、happen-before、CAS等等比较重要的并发知识这本书也都会一并介绍到。
+这本书主要是对 Java Concurrent 包中一些比较重要的源码进行了讲解，另外，像 JMM、happen-before、CAS 等等比较重要的并发知识这本书也都会一并介绍到。
 
 不论是你想要深入研究 Java 并发，还是说要准备面试，你都可以看看这本书。
 
@@ -381,19 +389,19 @@ O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是�
 
 JVM 这里就先只推荐一本书籍和一个关于 JVM 参数调优的免费教程（你假笨大佬将的）。
 
-**[《深入理解Java虚拟机》](https://book.douban.com/subject/34907497/)**
+**[《深入理解 Java 虚拟机》](https://book.douban.com/subject/34907497/)**
 
 ![](https://img-blog.csdnimg.cn/20210328171039829.png)
 
-*希望国内能有更多这样的优质书籍出现！加油！💪*
+_希望国内能有更多这样的优质书籍出现！加油！💪_
 
 这本书就一句话形容：**国产书籍中的战斗机，实实在在的优秀！**
 
-这本书的第三版去年年底已经出来了，新增了很多实在的内容比如ZGC等新一代GC的原理剖析。目前豆瓣上是 9.6 的高分，🐂不🐂我就不多说了！
+这本书的第三版去年年底已经出来了，新增了很多实在的内容比如 ZGC 等新一代 GC 的原理剖析。目前豆瓣上是 9.6 的高分，🐂 不 🐂 我就不多说了！
 
 不论是你面试还是你想要在 Java 领域学习的更深，你都离不开这本书籍。这本书不光要看，你还要多看几遍，都是干货，里面很多实战内容自己还最好实践一篇。
 
-这里额外推荐一个你假笨大佬的 **[《JVM 参数【Memory篇】》](https://club.perfma.com/course/438755/list)** 教程，很厉害了！
+这里额外推荐一个你假笨大佬的 **[《JVM 参数【Memory 篇】》](https://club.perfma.com/course/438755/list)** 教程，很厉害了！
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70.png)
 
@@ -405,37 +413,37 @@ JVM 这里就先只推荐一本书籍和一个关于 JVM 参数调优的免费�
 
 ![](https://img-blog.csdnimg.cn/20210328171146916.png)
 
-*比较一般！*
+_比较一般！_
 
 不建议当做入门书籍读，入门的话可以找点国人的书或者视频看。这本定位就相当于是关于 Spring 的一个概览，只有一些基本概念的介绍和示例，涵盖了 Spring 的各个方面，但都不够深入。就像作者在最后一页写的那样：“学习 Spring，这才刚刚开始”。
 
-**[《Spring 5高级编程》](https://book.douban.com/subject/30452637/)**
+**[《Spring 5 高级编程》](https://book.douban.com/subject/30452637/)**
 
 ![](https://img-blog.csdnimg.cn/20210328171223638.png)
 
-*工具人！*
+_工具人！_
 
-对于Spring5的新特性介绍的比较详细，也说不上好。另外，感觉全书翻译的有一点蹩脚的味道，还有一点枯燥。全书的内容比较多，我一般拿来当做工具书参考。
+对于 Spring5 的新特性介绍的比较详细，也说不上好。另外，感觉全书翻译的有一点蹩脚的味道，还有一点枯燥。全书的内容比较多，我一般拿来当做工具书参考。
 
-**[《Spring Boot编程思想（核心篇）》](https://book.douban.com/subject/33390560/)** 
+**[《Spring Boot 编程思想（核心篇）》](https://book.douban.com/subject/33390560/)**
 
 ![](https://img-blog.csdnimg.cn/20210328171250686.png)
 
-*稍微有点啰嗦，但是原理介绍的比较清楚。*
+_稍微有点啰嗦，但是原理介绍的比较清楚。_
 
-SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了几章，后面没看下去。书很厚，感觉很多很多知识点的讲解过于啰嗦和拖沓，不过，这本书对于SpringBoot内部原理讲解的还是很清楚。
+SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了几章，后面没看下去。书很厚，感觉很多很多知识点的讲解过于啰嗦和拖沓，不过，这本书对于 SpringBoot 内部原理讲解的还是很清楚。
 
-**[《Spring Boot实战》](https://book.douban.com/subject/26857423/)**
+**[《Spring Boot 实战》](https://book.douban.com/subject/26857423/)**
 
 ![](https://img-blog.csdnimg.cn/20210328174109306.png)
 
 比较一般的一本书，可以简单拿来看一下。
 
-**《Spring Boot实战派》**
+**《Spring Boot 实战派》**
 
 ![](https://img-blog.csdnimg.cn/20210328174134372.png)
 
-这本书使用的Spring Boot 2.0+的版本，还算比较新。整本书采用“知识点+实例”的形式编写。
+这本书使用的 Spring Boot 2.0+的版本，还算比较新。整本书采用“知识点+实例”的形式编写。
 
 另外，这本书的干货很多，作者在注意实战的过程中还不忘记对于一些重要的基础知识的讲解。
 
@@ -443,37 +451,37 @@ SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了
 
 ### Netty
 
-**《Netty实战》**
+**《Netty 实战》**
 
 ![](https://img-blog.csdnimg.cn/20210328174228387.png)
 
-这本书可以用来入门 Netty ，内容从BIO聊到了 NIO、之后才详细介绍为什么有 Netty 、Netty 为什么好用以及Netty重要的知识点讲解。
+这本书可以用来入门 Netty ，内容从 BIO 聊到了 NIO、之后才详细介绍为什么有 Netty 、Netty 为什么好用以及 Netty 重要的知识点讲解。
 
 这本书基本把 Netty 一些重要的知识点都介绍到了，而且基本都是通过实战的形式讲解。
 
-**《Netty进阶之路：跟着案例学Netty》**
+**《Netty 进阶之路：跟着案例学 Netty》**
 
 ![](https://img-blog.csdnimg.cn/20210328174249145.png)
 
-内容都是关于使用 Netty 的实践案例比如内存泄露这些东西。如果你觉得你的 Netty 已经完全入门了，并且你想要对Netty掌握的更深的话，推荐你看一下这本书。
+内容都是关于使用 Netty 的实践案例比如内存泄露这些东西。如果你觉得你的 Netty 已经完全入门了，并且你想要对 Netty 掌握的更深的话，推荐你看一下这本书。
 
 **《Netty 入门与实战：仿写微信 IM 即时通讯系统》**
 
 ![](https://img-blog.csdnimg.cn/20210328174500704.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
-*质量很高的一个小册！*
+_质量很高的一个小册！_
 
-通过一个基于 Netty 框架实现 IM 核心系统为引子，带你学习Netty。整个小册的质量还是很高的，即使你没有 Netty 使用经验也能看懂。
+通过一个基于 Netty 框架实现 IM 核心系统为引子，带你学习 Netty。整个小册的质量还是很高的，即使你没有 Netty 使用经验也能看懂。
 
 ## 面试
 
-**《JavaGuide面试突击版》**
+**《JavaGuide 面试突击版》**
 
 ![](https://img-blog.csdnimg.cn/20210329140905609.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
-*谁看谁说好！哈哈！*
+_谁看谁说好！哈哈！_
 
-Guide自己开源的，涵盖了Java后端方面的大部分知识点比如 集合、JVM、多线程还有数据库MySQL等内容。
+Guide 自己开源的，涵盖了 Java 后端方面的大部分知识点比如 集合、JVM、多线程还有数据库 MySQL 等内容。
 
 在我的公众号后台回复 ：“**面试突击**”即可免费获取。
 
@@ -503,13 +511,13 @@ Guide自己开源的，涵盖了Java后端方面的大部分知识点比如 集�
 
 《Clean Code》是 Bob 大叔的一本经典著作，强烈建议小伙伴们一定要看看。
 
-Bob 大叔将自己对整洁代码的理解浓缩在了这本书中，真可谓是对后生的一大馈赠。 
+Bob 大叔将自己对整洁代码的理解浓缩在了这本书中，真可谓是对后生的一大馈赠。
 
 **[《代码大全》](https://book.douban.com/subject/1477390/)**
 
 ![](https://img-blog.csdnimg.cn/20210314173253221.png)
 
-其实，《代码大全（第2版）》这本书我本身是不太想推荐给大家了。但是，看在它的豆瓣评分这么高的份上，还是拿出来说说吧！
+其实，《代码大全（第 2 版）》这本书我本身是不太想推荐给大家了。但是，看在它的豆瓣评分这么高的份上，还是拿出来说说吧！
 
 这也是一本非常经典的书籍，第二版对第一版进行了重写。
 
@@ -537,7 +545,7 @@ Bob 大叔将自己对整洁代码的理解浓缩在了这本书中，真可谓�
 
 ![Effective Java中文版（第3版）](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2021/03/s32282160.png)
 
-Java程序员必看！
+Java 程序员必看！
 
 又是一本 Java 领域国宝级别的书，非常经典。这本书主要介绍了在 Java 编程中很多极具实用价值的经验规则，这些经验规则涵盖了大多数开发人员每天所面临的问题的解决方案。这篇文章能够非常实际地帮助你写出更加清晰、健壮和高效的代码。本书中的每条规则都以简短、独立的小文章形式出现，并通过例子代码加以进一步说明。
 
@@ -559,7 +567,7 @@ Java程序员必看！
 
 ![](https://img-blog.csdnimg.cn/2021031412342771.png)
 
-你没看错，《架构整洁之道》这本书又是 Bob大叔的经典之作。
+你没看错，《架构整洁之道》这本书又是 Bob 大叔的经典之作。
 
 这本书我强烈安利！认真读完之后，我保证你对编程本质、编程语言的本质、软件设计、架构设计可以有进一步的认识。
 
@@ -567,9 +575,9 @@ Java程序员必看！
 
 正如作者说的那样：
 
-> 如果深入研究计算机编程的本质，我们就会发现这50年来，计算机编程基本没有什么大的变化。编程语言稍微进步了一点，工具的质量大大提升了，但是计算机程序的基本构造没有什么变化。
+> 如果深入研究计算机编程的本质，我们就会发现这 50 年来，计算机编程基本没有什么大的变化。编程语言稍微进步了一点，工具的质量大大提升了，但是计算机程序的基本构造没有什么变化。
 >
-> 虽然我们有了新的编程语言、新的编程框架、新的编程范式，但是软件架构的规则仍然和1946年阿兰·图灵写下第一行机器代码的时候一样。
+> 虽然我们有了新的编程语言、新的编程框架、新的编程范式，但是软件架构的规则仍然和 1946 年阿兰·图灵写下第一行机器代码的时候一样。
 >
 > 这本书就是为了把这些永恒不变的软件架构规则展现出来。
 
@@ -579,7 +587,7 @@ Java程序员必看！
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/2021/03/8ece325c-4491-4ffd-9d3d-77e95159ec40.png)
 
-这本书主要描述了软件开发的基本定律：**一个需要10天才能干完的活，不可能让10个人在1天干完！**
+这本书主要描述了软件开发的基本定律：**一个需要 10 天才能干完的活，不可能让 10 个人在 1 天干完！**
 
 看书名的第一眼，感觉不像是技术类的书籍。但是，就是这样一个看似和编程不沾边的书名，却成了编程领域长久相传的经典。
 
@@ -593,10 +601,10 @@ Java程序员必看！
 
 ## 软件质量其他书籍推荐
 
-- [《代码的未来》](https://book.douban.com/subject/24536403/) ：这本书的作者是Ruby之父松本行弘，算是一本年代比较久远的书籍（13年出版），不过，还是非常值得一读。这本书的内容主要介绍是编程/编程语言的本质。我个人还是比较喜欢松本行弘的文字风格，并且，你看他的文章也确实能够有所收获。
+- [《代码的未来》](https://book.douban.com/subject/24536403/) ：这本书的作者是 Ruby 之父松本行弘，算是一本年代比较久远的书籍（13 年出版），不过，还是非常值得一读。这本书的内容主要介绍是编程/编程语言的本质。我个人还是比较喜欢松本行弘的文字风格，并且，你看他的文章也确实能够有所收获。
 - [《深入浅出设计模式》](https://book.douban.com/subject/1488876/) ： 比较有趣的风格，适合设计模式入门。
 - [《软件架构设计:大型网站技术架构与业务架构融合之道》](https://book.douban.com/subject/30443578/) ： 内容非常全面。适合面试前突击一些比较重要的理论知识，也适合拿来扩充/完善自己的技术广度。
-- [《微服务架构设计模式》](https://book.douban.com/subject/33425123/) ：这本书是世界十大软件架构师之一、微服务架构先驱Chris Richardson亲笔撰写，豆瓣评分9.6。示例代码使用Java语言和Spring框架。帮助你设计、实现、测试和部署基于微服务的应用程序。
+- [《微服务架构设计模式》](https://book.douban.com/subject/33425123/) ：这本书是世界十大软件架构师之一、微服务架构先驱 Chris Richardson 亲笔撰写，豆瓣评分 9.6。示例代码使用 Java 语言和 Spring 框架。帮助你设计、实现、测试和部署基于微服务的应用程序。
 
 最后再推荐两个相关的文档：
 
@@ -625,5 +633,4 @@ Java程序员必看！
 
 以上是我针对本科计算机专业各个课程的倾力解读，如有不妥，请多加指正！
 
-# PDF获取
-
+# PDF 获取
