@@ -228,14 +228,18 @@ Github 上就有一些名校的计算机网络试验/Project：
 一般企业项目开发中，使用 MySQL 比较多。如果你要学习 MySQL 的话，可以看下面这 3 本书籍：
 
 - **[《MySQL必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合MySQL新手阅读，很棒的入门教材。
-- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： 学习 MySQL 必看，属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，拿我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你你一定要认真看一下。
+- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，拿我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你你一定要认真看一下。
 - **[《MySQL技术内幕》](https://book.douban.com/subject/24708143/)** ：你想深入了解MySQL存储引擎的话，看这本书准没错！
 
 ![](https://oscimg.oschina.net/oscnet/up-3d31e762933f9e50cc7170b2ebd8433917b.png)
 
 ### Redis
 
+ **Redis 就是一个使用 C 语言开发的数据库**，不过与传统数据库不同的是 **Redis 的数据是存在内存中的** ，也就是它是内存数据库，所以读写速度非常快，因此 Redis 被广泛应用于缓存方向。
 
+如果你要学习 Redis 的话，强烈推荐  **[《Redis 设计与实现》](https://book.douban.com/subject/25900156/)** 和 **[《Redis 实战》](https://book.douban.com/subject/26612779/)** 这两本书。另外，**[《Redis开发与运维》](https://book.douban.com/subject/26971561/)** 这本书也非常不错，既有基础介绍，又有一线开发运维经验分享。
+
+![](https://oscimg.oschina.net/oscnet/up-9f20f5e860d143181bd27343abfef3af2ce.png)
 
 ## 编译原理
 
