@@ -37,9 +37,9 @@
 
 先来看三本入门书籍，这三本入门书籍中的任何一本拿来作为入门学习都非常好。
 
-- [《我的第一本算法书》](https://book.douban.com/subject/30357170/) 
-- [《算法图解》](https://book.douban.com/subject/26979890/)
-- [《啊哈!算法》](https://book.douban.com/subject/25894685/)
+1. [《我的第一本算法书》](https://book.douban.com/subject/30357170/) 
+2. [《算法图解》](https://book.douban.com/subject/26979890/)
+3. [《啊哈!算法》](https://book.douban.com/subject/25894685/)
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/image-20210327104418851.png)
 
@@ -98,6 +98,8 @@
 ![](https://img-blog.csdnimg.cn/20210328180900481.png)
 
 入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
+
+
 
 ## 操作系统
 
