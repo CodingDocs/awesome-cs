@@ -1,3 +1,9 @@
+Github地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
+
+码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
+
+**目录** ：
+
 - [计算机基础](#计算机基础)
   - [操作系统](#操作系统)
   - [计算机网络](#计算机网络)
