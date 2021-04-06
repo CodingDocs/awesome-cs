@@ -1,3 +1,5 @@
+
+
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
@@ -99,13 +101,15 @@
 
 入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
 
-
-
 ## 操作系统
 
 如果你要系统地学习操作系统的话，最硬核最权威的书籍是 **[《操作系统导论》](https://book.douban.com/subject/33463930/)** 。你可以再配套一个 **[《深入理解计算机系统》](https://book.douban.com/subject/1230413/)** 加深你对计算机系统本质的认识，美滋滋！
 
 ![](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-10-12/image-20201012191645919.png)
+
+另外，去年新出的一本国产的操作系统书籍也很不错：**[《现代操作系统：原理与实现》](https://book.douban.com/subject/35208251/)** （夏老师和陈老师团队的力作，值得推荐）。
+
+![](https://img-blog.csdnimg.cn/20210406132050845.png)
 
 如果你比较喜欢动手，对于理论知识比较抵触的话，我推荐你看看 **[《30 天自制操作系统》](https://book.douban.com/subject/11530329/)** ，这本书会手把手教你编写一个操作系统。
 
@@ -114,8 +118,11 @@
 其他相关书籍推荐：
 
 - **[《自己动手写操作系统》](https://book.douban.com/subject/1422377/)**  ： 不光会带着你详细分析操作系统原理的基础，还会用丰富的实例代码，一步一步地指导你用C语言和汇编语言编写出一个具备操作系统基本功能的操作系统框架。
-- **[《操作系统设计与实现》](https://book.douban.com/subject/2044818/)** ：操作系统的权威教学教材。
 - **[《现代操作系统》](https://book.douban.com/subject/3852290/)** ： 内容很不错，不过，翻译的一般。如果你是精读本书的话，建议把课后习题都做了。
+- **[《操作系统真象还原》](https://book.douban.com/subject/26745156/)** ： 这本书的作者毕业于北京大学，前百度运维高级工程师。因为在大学期间曾重修操作系统这一科，后对操作系统进行深入研究，著下此书。
+- **[《深度探索Linux操作系统》](https://book.douban.com/subject/25743846/)** ：跟着这本书的内容走，可以让你对如何制作一套完善的 GNU/Linux 系统有了清晰的认识。
+- **[《操作系统设计与实现》](https://book.douban.com/subject/2044818/)** ：操作系统的权威教学教材。
+- **[《Orange'S:一个操作系统的实现》](https://book.douban.com/subject/3735649/)** ： 从只有二十行的引导扇区代码出发，一步一步地向读者呈现一个操作系统框架的完成过程。
 
 如果你比较喜欢看视频的话，我建议你可以看看北京交通大学的慕课[《操作系统》](https://www.icourse163.org/course/NJTU-1003245001)。
 
@@ -165,6 +172,12 @@ Github 上就有一些名校的计算机网络试验/Project：
 - [计算机网络基础知识总结](https://snailclimb.gitee.io/javaguide/#/docs/network/计算机网络知识总结)
 
 最后再补充一个：[浙江大学的计算机网络课程资料、教材和试卷](https://github.com/QSCTech/zju-icicles/tree/master/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80) 。需要的小伙伴请查收！
+
+## 数据库
+
+
+
+[如何开发一个简单的数据库](https://cstack.github.io/db_tutorial/)
 
 # Java
 
@@ -487,3 +500,6 @@ Java程序员必看！
 
 - **阿里巴巴 Java 开发手册** ：https://github.com/alibaba/p3c
 - **Google Java 编程风格指南：** http://www.hawstein.com/posts/google-java-style.html
+
+# PDF获取
+
