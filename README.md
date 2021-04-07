@@ -1,8 +1,9 @@
-[下面推荐的书籍的PDF版本打包下载！没有解压密码！没有解压密码！没有解压密码！](#PDF-获取)
+[PDF 版本的书籍我已经整理好，点击这个链接即可打包下载！没有解压密码！没有解压密码！没有解压密码！](#PDF-获取)
 
-Github地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
+**开源的目的是为了大家能一起完善，如果你觉得内容有任何需要完善/补充的地方，欢迎提交 issue/pr。**
 
-码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
+- Github地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
+- 码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
 
 **目录** ：
 
