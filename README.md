@@ -324,65 +324,77 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 毕竟计算机语言就是字符语言，听说读写中最起码要满足**读写**这两项不过分吧。
 
+# 前端
+
+笔者是从事 Java 后端开发的，对于前端的了解属于皮毛，欢迎前端大佬补充和指正。
+
+前端框架更新换代的很快，目前比较流行的是 Vue、React、Angular 。
+
+不过，不管前端这些技术怎么变，前端三剑客（HTML、CSS、JavaScript ）是不会变的。
+
+HTML 和 CSS 相对 JS 来说就比较简单了。你可以在 [W3school](http://www.w3school.com.cn/) 上学习一些关于  HTML、CSS、JS 的基础知识。然后，通过一个简单的前端项目来实战一下。比如你可以做一个个人简历或者模仿某某官网写个类似的网页。
+
+JavaScript 的水更深，也是前端面试中的重心。 
+
+学习 JS的话，[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 上的JS相关的内容是必须要看的！上面的内容很全面，质量非常高！
+
+初次之外，开源的 JS 教程[《The Modern JavaScript Tutorial》](https://javascript.info/)非常赞！目前的话，这个系列的教程还被翻译成了多国的语言。
+
+![](https://img-blog.csdnimg.cn/20210409151045407.png)
+
+这个教程的内容分为3部分
+
+1. JavaScript 编程语言 ： JavaScript 入门，还会介绍 OOP 等相关高级概念。
+2. 浏览器（文档，事件，接口） ： 学习如何管理浏览器页面
+3. 其他文章 ： 按需学习其他 JavaScript 高级知识。
+
 # Java
 
-这篇文章推荐了大部分我所读过的优秀书籍，虽然部分可能没看完。答应我，一定要看到最后，看完之后应该不会再纠结要看什么书了。走起！！！
+我自己是在大二开始学习 Java 的，那个时候已经有了 C 语言的基础。
 
-_这篇文章未涵盖计算机基础比如算法和数据结构、数据库、分布式、微服务方面的书籍，这个留在下一篇文章推荐。_
+学习任何一门编程语言，我们先从最基本的开始。
 
 ## Java 基础
 
-**[《Head First Java》](https://book.douban.com/subject/2000732/)**
+如果你之前没有学习过编程的话，我建议你可以看看视频教程。
 
-![](https://img-blog.csdnimg.cn/20210328154409343.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
+像尚硅谷的 [《 Java 基础教程系列》](https://www.bilibili.com/video/BV1Kb411W75N) 和韩顺平老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)就很不错。
 
-这是我的 Java 启蒙书籍了。因为是我学习 Java 看的第一本书，所以，我对其有不一样的情感。
+![](https://img-blog.csdnimg.cn/20210409143842888.png)
 
-_ps:我是当时学完了 C 语言之后才开始学习 Java 的，刚开始看这本书感觉很轻松有趣，可以说是我学习编程初期最喜欢的一本书了。_
+学习过 Java 的朋友，大部分应该都看过韩老师的课程吧！韩老师毕业于清华大学，录制的视频课程质量都非常高。内容易懂，并且不失严谨。
 
-有些人说这本书不适合编程新手阅读？（问号脸） 我个人觉得还是很适合稍微有一点点经验的新手来阅读的，当然也适合我们用来温故 Java 知识点。
+韩老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)系列不光会教你 Java 基础，还会帮你建立编程思想，让你知道学习了 Java 之后，你可以从事什么工作。
 
-> ps:刚入门编程，最好的方式还是通过看视频来学习。
+看视频的同时，配套一本好书也是非常有作用的。
 
-**[《Java 核心技术卷 1+卷 2》](https://book.douban.com/subject/34898994/)**
+**[《Head First Java》](https://book.douban.com/subject/2000732/)**   这本书在是入门 Java 的很不错的书籍 。
+
+![](https://img-blog.csdnimg.cn/20210328154409343.png)
+
+《Head First Java》这本书的内容很轻松有趣，可以说是我学习编程初期最喜欢的几本书之一了。同时，这本书也是我的 Java 启蒙书籍。我在学习 Java 的初期多亏了这本书的帮助，自己才算是跨进 Java 语言的大门。
+
+我觉得我在 Java 这块能够坚持下来，这本书有很大的功劳。我身边的的很多朋友学习 Java 初期都是看的这本书。
+
+有很多小伙伴就会问了：**这本书适不适合编程新手阅读呢？**
+
+我个人觉得这本书还是挺适合编程新手阅读的，毕竟是 “Head First” 系列。
 
 ![](https://img-blog.csdnimg.cn/20210328154428110.png)
 
-非常适合拿来当做工具书！我当时在大学的时候就买了两本放在寝室，没事的时候就翻翻。
+ **[《Java 核心技术卷 1+卷 2》](https://book.douban.com/subject/34898994/)** 这两本书也非常不错。不过，这两本书的内容很多，全看的话比较费时间。我现在是把这两本书当做工具书来用，就比如我平时写文章的时候，碰到一些 Java 基础方面的问题，经常就翻看这两本来当做参考！
 
-建议有点 Java 基础之后再读，介绍的还是比较深入和全面的，非常推荐。
-
-这两本书的内容很多，全看的话比较费时间，我一般也会用来巩固知识点或者当做工具书参考，是两本适合放在自己身边的好书。
-
-**[《Java 编程思想 》](https://book.douban.com/subject/2130190/)**
+我当时在大学的时候就买了两本放在寝室，没事的时候就翻翻。建议有点 Java 基础之后再读，介绍的还是比较深入和全面的，非常推荐。
 
 ![](https://img-blog.csdnimg.cn/20210328154443491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
 
+**[《Java 编程思想 》](https://book.douban.com/subject/2130190/)** 这本书被很多人称之为 Java 领域的圣经（_感觉有点过了~~~_）。不太推荐编程初学者阅读，有点劝退的味道，稍微有点基础后阅读更好。
+
 我第一次看的时候还觉得有点枯燥，那时候还在上大二，看了 1/3 就没看下去了。
-
-这本书被很多人称之为 Java 领域的圣经（_感觉有点过了~~~_）。不太推荐编程初学者阅读，有点劝退的味道，稍微有点基础后阅读更好。
-
-这本书到现在我也才看了一半左右，内容确实也比较多，而且稍微有点枯燥，但是比较权威。我一般也是拿来当做工具书参考。
-
-**[《Java 性能权威指南》](https://book.douban.com/subject/26740520/)**
-
-![](https://img-blog.csdnimg.cn/20210328154205645.png)
-
-_希望能有更多这 Java 性能优化方面的好书！_
-
-O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是每个 Java 从业者必备知识。
-
-这本书介绍的实战内容很不错，尤其是 JVM 调优，缺点也比较明显，就是内容稍微有点老。市面上这种书很少。这本书不适合初学者，建议对 Java 语言已经比价掌握了再看。另外，阅读之前，最好先看看周志明大佬的《深入理解 Java 虚拟机》。
-
-**[《Java 8 实战》](https://book.douban.com/subject/26772632/)**
 
 ![](https://img-blog.csdnimg.cn/20210328154754434.png)
 
-_还没用上 Java 8 的可以反思一下了，还没用过 Lambda 也可以反思一下了。_
-
-现在大部分公司至少都用到了 Java 8 , Java 8 算是一个里程碑式的版本，提供了很多有用的新特性比如 Lambda、流式处理等等。
-
-这本书是学习 Java 8 新特性很好的选择，它内容包括 Lambda、流和函数式编程等 Java8 新特性。实战系列的一贯风格让自己快速上手应用起来。
+另外，Java 8 算是一个里程碑式的版本，现在一般企业还是用 Java 8 比较多。掌握 Java 8 的一些新特性比如 Lambda、Strean API 还是挺有必要的。这块的话，我推荐 **[《Java 8 实战》](https://book.douban.com/subject/26772632/)** 这本书。
 
 ## 并发
 
@@ -507,6 +519,18 @@ SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了
 _质量很高的一个小册！_
 
 通过一个基于 Netty 框架实现 IM 核心系统为引子，带你学习 Netty。整个小册的质量还是很高的，即使你没有 Netty 使用经验也能看懂。
+
+## 性能调优
+
+**[《Java 性能权威指南》](https://book.douban.com/subject/26740520/)**
+
+![](https://img-blog.csdnimg.cn/20210328154205645.png)
+
+_希望能有更多这 Java 性能优化方面的好书！_
+
+O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是每个 Java 从业者必备知识。
+
+这本书介绍的实战内容很不错，尤其是 JVM 调优，缺点也比较明显，就是内容稍微有点老。市面上这种书很少。这本书不适合初学者，建议对 Java 语言已经比价掌握了再看。另外，阅读之前，最好先看看周志明大佬的《深入理解 Java 虚拟机》。
 
 ## 面试
 
