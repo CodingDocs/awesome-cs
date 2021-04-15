@@ -1,4 +1,4 @@
-[PDF 版本的书籍我已经整理好，点击这个链接即可打包下载！没有解压密码！没有解压密码！没有解压密码！](#PDF-获取)
+[PDF 版本的书籍我已经整理好，点击这个链接即可打包下载！没有解压密码！没有解压密码！没有解压密码！](#资料下载)
 
 **开源的目的是为了大家能一起完善，如果你觉得内容有任何需要完善/补充的地方，欢迎提交 issue/pr。**
 
@@ -154,9 +154,11 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 **再推荐几本比较经典的算法书籍。**
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s29107491.jpg)
+![](https://img-blog.csdnimg.cn/img_convert/7766610b5bdc5cb9ede617c759a84a1c.png)
 
 **[《算法》](https://book.douban.com/subject/19952400/)**
+
+这本书内容非常清晰易懂，适合数据结构和算法小白阅读。书中把一些常用的数据结构和算法都介绍到了！
 
 我在大二的时候被我们的一个老师强烈安利过！自己也在当时购买了一本放在宿舍，到离开大学的时候自己大概看了一半多一点。因为内容实在太多了！另外，这本书还提供了详细的 Java 代码，非常适合学习 Java 的朋友来看，可以说是 Java 程序员的必备书籍之一了。
 
@@ -200,11 +202,23 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ## 数据结构
 
+其实，上面提到的很多算法类书籍（比如 **《算法》** 和 **《算法导论》**）都详细地介绍了常用的数据结构。
+
+我这里再另外补充基本和数据结构相关的书籍。
+
 **[《大话数据结构》](https://book.douban.com/subject/6424904/)**
 
 ![](https://img-blog.csdnimg.cn/20210328180900481.png)
 
 入门类型的书籍，读起来比较浅显易懂，适合没有数据结构基础或者说数据结构没学好的小伙伴用来入门数据结构。
+
+**[《数据结构与算法分析：Java 语言描述》](https://book.douban.com/subject/3351237/)**
+
+![](https://img-blog.csdnimg.cn/20210414205117835.png)
+
+质量很高，介绍了常用的数据结构和算法。
+
+类似的还有 **[《数据结构与算法分析 ：C 语言描述》](https://book.douban.com/subject/1139426/)**  、**[《数据结构与算法分析：C++ 描述》](https://book.douban.com/subject/1971825/)**
 
 # 计算机专业课
 
@@ -240,6 +254,8 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ### MySQL
 
+我们网站或 者APP 的数据都是需要使用数据库来存储数据的。
+
 一般企业项目开发中，使用 MySQL 比较多。如果你要学习 MySQL 的话，可以看下面这 3 本书籍：
 
 - **[《MySQL必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合MySQL新手阅读，很棒的入门教材。
@@ -259,8 +275,15 @@ Github 上就有一些名校的计算机网络试验/Project：
    - ......
 2. MySQL 中常用的数据类型、字符集编码
 3. MySQL 简单查询、条件查询、模糊查询、多表查询以及如何对查询结果排序、过滤、分组......
-4. MySQL 中使用视图、存储过程、游标、触发器
+4. MySQL 中使用索引、视图、存储过程、游标、触发器
 5. ......
+
+如果你想让自己更加了解 MySQL ，同时也是为了准备面试的话，下面这些知识点要格外注意：
+
+1. 索引：索引优缺点、B 树和 B+树、聚集索引与非聚集索引、覆盖索引
+2. 事务：事务、数据库事务、ACID、并发事务、事务隔离级别
+3. 存储引擎（MyISAM 和 InnoDB）
+4. 锁机制与 InnoDB 锁算法
 
 ### Redis
 
@@ -269,6 +292,23 @@ Github 上就有一些名校的计算机网络试验/Project：
 如果你要学习 Redis 的话，强烈推荐  **[《Redis 设计与实现》](https://book.douban.com/subject/25900156/)** 和 **[《Redis 实战》](https://book.douban.com/subject/26612779/)** 这两本书。另外，**[《Redis开发与运维》](https://book.douban.com/subject/26971561/)** 这本书也非常不错，既有基础介绍，又有一线开发运维经验分享。
 
 ![](https://oscimg.oschina.net/oscnet/up-9f20f5e860d143181bd27343abfef3af2ce.png)
+
+
+
+下面是我总结的一些关于并发的小问题，你可以拿来自测：
+
+1. Redis 和 Memcached 的区别和共同点
+2. 为什么要用 Redis/为什么要用缓存？
+3. Redis 常见数据结构以及使用场景分析
+4. Redis 没有使用多线程？为什么不使用多线程？Redis6.0 之后为何引入了多线程？
+5.  Redis 给缓存数据设置过期时间有啥用？
+6. Redis 是如何判断数据是否过期的呢？
+7. 过期的数据的删除策略了解么？
+8. Redis 内存淘汰机制了解么？
+9. Redis 持久化机制(怎么保证 Redis 挂掉之后再重启数据可以进行恢复)
+10. Redis 缓存穿透、缓存雪崩？
+11. 如何保证缓存和数据库数据的一致性？
+12. ......
 
 ## 编译原理
 
@@ -372,7 +412,7 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 如果你之前没有学习过编程的话，我建议你可以看看视频教程。
 
-像尚硅谷的 [《 Java 基础教程系列》](https://www.bilibili.com/video/BV1Kb411W75N) 和韩顺平老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)就很不错。
+像尚硅谷的 [《 Java 基础教程系列》](https://www.bilibili.com/video/BV1Kb411W75N) （[点击下载视频](#资料下载-Java)）和韩顺平老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)就很不错。
 
 ![](https://img-blog.csdnimg.cn/20210409143842888.png)
 
@@ -410,7 +450,17 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 另外，Java 8 算是一个里程碑式的版本，现在一般企业还是用 Java 8 比较多。掌握 Java 8 的一些新特性比如 Lambda、Strean API 还是挺有必要的。这块的话，我推荐 **[《Java 8 实战》](https://book.douban.com/subject/26772632/)** 这本书。
 
+学完 Java 基础之后，你可以用自己学的东西实现一个简单的 Java 程序，也可以尝试用 Java 解决一些编程问题，以此来将自己学到的东西付诸于实践。
+
+不太建议学习 Java基础的之后通过做游戏来巩固。为什么培训班喜欢通过这种方式呢？说白点就是为了找到你的G点。新手学习完Java基础后做游戏一般是不太现实的，还不如找一些简单的程序问题解决一下比如简单的算法题。
+
+记得多总结！打好基础！把自己重要的东西都记录下来。 API 文档放在自己可以看到的地方，以备自己可以随时查阅。为了能让自己写出更优秀的代码，《Effective Java》、《重构》 这两本书没事也可以看看。
+
 ## 并发
+
+多线程这部分内容稍微会比较难以理解和实践。如果你刚学完 Java 基础的话，我建议你学习并发这部分内容的时候，可以先简单地了解一下基础知识比如线程和进程的对比。到了后面，你对于 Java 了解的更深了之后，再回来仔细看看这部分的内容。
+
+下面是一些我比较推荐的书籍。
 
 **[《Java 并发编程之美》](https://book.douban.com/subject/30351286/)**
 
@@ -446,29 +496,113 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 不论是你想要深入研究 Java 并发，还是说要准备面试，你都可以看看这本书。
 
+下面是我总结的一些关于并发的小问题，你可以拿来自测：
+
+1. 什么是线程和进程? 线程与进程的关系,区别及优缺点？
+2. 说说并发与并行的区别?
+3. 为什么要使用多线程呢?
+4. 使用多线程可能带来什么问题?（内存泄漏、死锁、线程不安全等等）
+5. 创建线程有哪几种方式？（a.继承 Thread 类;b.实现 Runnable 接口;c. 使用 Executor 框架;d.使用 FutureTask）
+6. 说说线程的生命周期和状态?
+7. 什么是上下文切换?
+8. 什么是线程死锁?如何避免死锁?
+9. 说说 `sleep()` 方法和 `wait()` 方法区别和共同点?
+10. Java 内存模型（JMM）、重排序与 happens-before 原则了解吗？
+11. `synchronized` 关键字、volatile 关键字
+12. `ThreadLocal` 有啥用（解决了什么问题）？怎么用？原理了解吗？内存泄露问题了解吗？
+13. 为什么要用线程池？`ThreadPoolExecutor` 类的重要参数了解吗？`ThreadPoolExecutor` 饱和策略了解吗？线程池原理了解吗？几种常见的线程池了解吗？为什么不推荐使用`FixedThreadPool`？如何设置线程池的大小？
+14. AQS了解么？原理？AQS 常用组件：`Semaphore` (信号量)、`CountDownLatch` （倒计时器） `CyclicBarrier`(循环栅栏) 
+15. `ReentrantLock` 、 `ReentrantReadWriteLock` 、`StampedLock`（JDK8）
+16. CAS 了解么？原理？
+17. Atomic 原子类
+18. 并发容器：`ConcurrentHashMap` 、 `CopyOnWriteArrayList` 、 `ConcurrentLinkedQueue` `BlockingQueue`  、`ConcurrentSkipListMap`
+19. `Future` 和 `CompletableFuture`
+20. ......
+
 ## JVM
 
-JVM 这里就先只推荐一本书籍和一个关于 JVM 参数调优的免费教程（你假笨大佬将的）。
+对于 Java 程序员来说，JVM 帮助我们做了很多事情比如内存管理、垃圾回收等等。在 JVM 的帮助下，我们的程序出现内存泄漏这些问题的概率相对来说是比较低的。但是，这并不代表我们在日常开发工作中不会遇到。万一你在工作中遇到了 OOM 问题，你至少要知道如何去排查和解决问题吧！
 
-**[《深入理解 Java 虚拟机》](https://book.douban.com/subject/34907497/)**
+并且，就单纯从面试角度来说，JVM 是 Java 后端面试（大厂）中非常重要的一环。不论是应届还是社招，面试国内的一些大厂，你都会被问到很多 JVM 相关的问题（应届的话侧重理论，社招实践）。
+
+只有搞懂了 JVM 才有可能真正把 Java 语言“吃透”。学习 JVM 这部分的内容，一定要注意要实战和理论结合。
+
+书籍的话，**[《深入理解 Java 虚拟机》](https://book.douban.com/subject/34907497/)** 这本书是首先要推荐的。
 
 ![](https://img-blog.csdnimg.cn/20210328171039829.png)
 
-_希望国内能有更多这样的优质书籍出现！加油！💪_
-
-这本书就一句话形容：**国产书籍中的战斗机，实实在在的优秀！**
+这本书就一句话形容：**国产书籍中的战斗机，实实在在的优秀！** （真心希望国内能有更多这样的优质书籍出现！加油！💪）
 
 这本书的第三版去年年底已经出来了，新增了很多实在的内容比如 ZGC 等新一代 GC 的原理剖析。目前豆瓣上是 9.6 的高分，🐂 不 🐂 我就不多说了！
 
-不论是你面试还是你想要在 Java 领域学习的更深，你都离不开这本书籍。这本书不光要看，你还要多看几遍，都是干货，里面很多实战内容自己还最好实践一篇。
+不论是你面试还是你想要在 Java 领域学习的更深，你都离不开这本书籍。这本书不光要看，你还要多看几遍，里面都是干货。这本书里面还有一些需要自己实践的东西，我建议你也跟着实践一下。
 
-这里额外推荐一个你假笨大佬的 **[《JVM 参数【Memory 篇】》](https://club.perfma.com/course/438755/list)** 教程，很厉害了！
+类似的书籍还有 **[《实战Java虚拟机》](https://book.douban.com/subject/26354292/)**、**[《虚拟机设计与实现:以JVM为例》](https://book.douban.com/subject/34935105/)** ，这两本都是非常不错的！
+
+![](https://img-blog.csdnimg.cn/2021040917192618.png)
+
+如果你对实战比较感兴趣，想要自己动手写一个简易的 JVM 的话，可以看看  **[《自己动手写Java虚拟机》](https://book.douban.com/subject/26802084/)** 这本书。
+
+![](https://img-blog.csdnimg.cn/20210409170057457.png)
+
+书中的代码是基于 Go 语言实现的，搞懂了原理之后，你可以使用 Java 语言模仿着写一个，也算是练练手！ 如果你当前没有能力独立使用 Java 语言模仿着写一个的话，你也可以在网上找到很多基于 Java 语言版本的实现，比如[《zachaxy的手写JVM系列》](https://zachaxy.github.io/tags/JVM/)  。
+
+这本书目前在豆瓣有8.2的评分，我个人觉得张秀宏老师写的挺好的，这本书值得更高的评分。
+
+另外，R大在豆瓣发的[《从表到里学习JVM实现》](https://www.douban.com/doulist/2545443/)这篇文章中也推荐了很多不错的 JVM 相关的书籍，推荐小伙伴们去看看。
+
+再推荐两个视频给喜欢看视频学习的小伙伴。
+
+第 1 个是尚硅谷的宋红康老师讲的[《JVM全套教程》](https://www.bilibili.com/video/BV1PJ411n7xZ)。这个课程的内容非常硬，一共有接近400小节。
+
+课程的内容分为3部分：
+
+1. 《内存与垃圾回收篇》
+2. 《字节码与类的加载篇》
+3. 《性能监控与调优篇》
+
+![](https://img-blog.csdnimg.cn/20210409181534319.png)
+
+第 2 个是你假笨大佬的 **[《JVM 参数【Memory 篇】》](https://club.perfma.com/course/438755/list)** 教程，很厉害了！
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70.png)
+
+
+下面是我总结的一些关于 JVM 的小问题，你可以拿来自测：
+
+1. 什么是虚拟机？
+2.  Java 内存区域是怎么划分的？大对象放在哪个内存区域？
+3. 垃圾回收有哪些算法？GC 的流程
+4. 什么是类加载？何时类加载？类加载流程？
+5. 知道哪些类加载器。类加载器之间的关系？
+6. 类加载器的双亲委派了解么？ 结合 Tomcat 说一下双亲委派（Tomcat 如何打破双亲委托机制？...）。
+7. 常见调优参数有哪些？
+8. ......
+
+## 常用工具
+
+非常重要！非常重要！特别是 Git和 Docker。
+
+1. **IDEA** ：熟悉基本操作以及常用快捷。你可以通过Github上的开源教程 [《IntelliJ IDEA 简体中文专题教程》](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 来学习 IDEA 的使用。
+2. **Maven** ：强烈建议学习常用框架之前可以提前花几天时间学习一下**Maven**的使用。（到处找 Jar 包，下载 Jar 包是真的麻烦费事，使用 Maven 可以为你省很多事情）。
+3. **Git** ：基本的 Git 技能也是必备的，试着在学习的过程中将自己的代码托管在 Github 上。你可以看看这篇Github上开源的 [《Git极简入门》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git) 。
+4. **Docker** ：学着用 Docker 安装学习中需要用到的软件比如 MySQL ,这样方便很多，可以为你节省不少时间。你可以看看这篇Github上开源的  [《Docker 基本概念解读》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker) 、[《一文搞懂 Docker 镜像的常用操作！》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
+
+除了这些工具之外，我强烈建议你一定要搞懂 Github 的使用。一些使用 Github 的小技巧，你可以看[《Github小技巧》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Github%E6%8A%80%E5%B7%A7)这篇文章。
 
 ## 常用框架
 
 ### Spring/SpringBoot
+
+**Spring 和 SpringBoot 真的很重要！**
+
+ 一定要搞懂 AOP 和 IOC 这两个概念。Spring 中 bean 的作用域与生命周期、SpringMVC 工作原理详解等等知识点都是非常重要的，一定要搞懂。
+
+企业中做 Java 后端，你一定离不开 SpringBoot ，这个是必备的技能了！一定一定一定要学好！
+
+像 SpringBoot 和一些常见技术的整合你也要知识怎么做，比如 SpringBoot 整合MyBatis、 ElasticSearch、SpringSecurity、Redis等等。
+
+下面是一些比较推荐的书籍/专栏。
 
 **[《Spring 实战》](https://book.douban.com/subject/34949443/)**
 
@@ -512,6 +646,16 @@ SpringBoot 解析，不适合初学者。我是去年入手的，现在就看了
 
 ### Netty
 
+但凡涉及到网络通信就必然必然离不开网络编程。 Netty 目前作为 Java 网络编程最热门的框架，毫不夸张地说是每个 Java 程序员必备的技能之一。
+
+**为什么说学好 Netty 很有必要呢？**
+
+1. Netty 基于 NIO （NIO 是一种同步非阻塞的 I/O 模型，在 Java 1.4 中引入了 NIO ）。使用 Netty 可以极大地简化并简化了 TCP 和 UDP 套接字服务器等网络编程,并且性能以及安全性等很多方面都非常优秀。
+2. 我们平常经常接触的 Dubbo、RocketMQ、Elasticsearch、gRPC、Spark、Elasticsearch 等等热门开源项目都用到了 Netty。
+3. 大部分微服务框架底层涉及到网络通信的部分都是基于 Netty 来做的，比如说 Spring Cloud 生态系统中的网关 Spring Cloud Gateway 。
+
+下面是一些比较推荐的书籍/专栏。
+
 **《Netty 实战》**
 
 ![](https://img-blog.csdnimg.cn/20210328174228387.png)
@@ -545,6 +689,20 @@ _希望能有更多这 Java 性能优化方面的好书！_
 O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是每个 Java 从业者必备知识。
 
 这本书介绍的实战内容很不错，尤其是 JVM 调优，缺点也比较明显，就是内容稍微有点老。市面上这种书很少。这本书不适合初学者，建议对 Java 语言已经比价掌握了再看。另外，阅读之前，最好先看看周志明大佬的《深入理解 Java 虚拟机》。
+
+## 网站架构
+
+看过很多网站架构方面的书籍，比如《大型网站技术架构：核心原理与案例分析》、《亿级流量网站架构核心技术》、《架构修炼之道——亿级网关、平台开放、分布式、微服务、容错等核心技术修炼实践》等等。
+
+目前我觉得能推荐的只有李运华老师的**[《从零开始学架构》](https://book.douban.com/subject/30335935/)** 这本。
+
+
+
+![](https://img-blog.csdnimg.cn/20210412224443177.png)
+
+这本书对应的有一个极客时间的专栏—《从零开始学架构》，里面的很多内容都是这个专栏里面的，两者买其一就可以了。我看了很小一部分，内容挺全面的，是一本真正在讲如何做架构的书籍。
+
+
 
 ## 面试
 
@@ -706,9 +864,9 @@ Java 程序员必看！
 
 以上是我针对本科计算机专业各个课程的倾力解读，如有不妥，请多加指正！
 
-# PDF 获取
+# 资料下载
 
-## 计算机基础
+## 资料下载-计算机基础
 
 ![](https://oscimg.oschina.net/oscnet/up-b270743c8190a69a54683e084b5543e0e91.png)
 
@@ -718,12 +876,20 @@ Java 程序员必看！
 
 <img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-2@main/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/qrcode_for_gh_8b9b6034ac19_258.jpg" style="text-align:right"/>
 
-## Java
+## 资料下载-Java
+
+
 
 ![](https://oscimg.oschina.net/oscnet/up-67e0a8d1ce659a022b7b6db5163ba0f7aeb.png)
 
-打包下载（涵盖上面提到的大部分书籍）。没有解压密码！没有解压密码！没有解压密码！
+
+
+![](https://img-blog.csdnimg.cn/20210412205837522.png)
+
+Java PDF书籍（涵盖上面提到的大部分书籍）打包下载。没有解压密码！没有解压密码！没有解压密码！
 
 扫描下面的二维码或者微信搜索 “**JavaGuide**” 关注后回复“**书籍**”即可获取下载地址。
+
+尚硅谷2021 Java全套视频学习资料 后台回复“**视频**” 获取。
 
 ![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
