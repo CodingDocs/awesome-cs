@@ -259,7 +259,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 一般企业项目开发中，使用 MySQL 比较多。如果你要学习 MySQL 的话，可以看下面这 3 本书籍：
 
 - **[《MySQL必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合MySQL新手阅读，很棒的入门教材。
-- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，拿我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你你一定要认真看一下。
+- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你一定要认真看一下。
 - **[《MySQL技术内幕》](https://book.douban.com/subject/24708143/)** ：你想深入了解MySQL存储引擎的话，看这本书准没错！
 
 ![](https://oscimg.oschina.net/oscnet/up-3d31e762933f9e50cc7170b2ebd8433917b.png)
@@ -392,7 +392,7 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 学习 JS的话，[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 上的JS相关的内容是必须要看的！上面的内容很全面，质量非常高！
 
-初次之外，开源的 JS 教程[《The Modern JavaScript Tutorial》](https://javascript.info/)非常赞！目前的话，这个系列的教程还被翻译成了多国的语言。
+除此之外，开源的 JS 教程[《The Modern JavaScript Tutorial》](https://javascript.info/)非常赞！目前的话，这个系列的教程还被翻译成了多国的语言。
 
 ![](https://img-blog.csdnimg.cn/20210409151045407.png)
 
