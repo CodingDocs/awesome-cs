@@ -437,7 +437,7 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 我当时在大学的时候就买了两本放在寝室，没事的时候就翻翻。建议有点 Java 基础之后再读，介绍的还是比较深入和全面的，非常推荐。
 
-![](https://img-blog.csdnimg.cn/20210328154443491.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20210328154443491.png)
 
 **[《Java 编程思想 》](https://book.douban.com/subject/2130190/)** 这本书被很多人称之为 Java 领域的圣经（_感觉有点过了~~~_）。不太推荐编程初学者阅读，有点劝退的味道，稍微有点基础后阅读更好。
 
@@ -446,6 +446,8 @@ JavaScript 的水更深，也是前端面试中的重心。
 ![](https://img-blog.csdnimg.cn/20210328154754434.png)
 
 另外，Java 8 算是一个里程碑式的版本，现在一般企业还是用 Java 8 比较多。掌握 Java 8 的一些新特性比如 Lambda、Strean API 还是挺有必要的。这块的话，我推荐 **[《Java 8 实战》](https://book.douban.com/subject/26772632/)** 这本书。
+
+
 
 学完 Java 基础之后，你可以用自己学的东西实现一个简单的 Java 程序，也可以尝试用 Java 解决一些编程问题，以此来将自己学到的东西付诸于实践。
 
@@ -698,8 +700,6 @@ O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是�
 ![](https://img-blog.csdnimg.cn/20210412224443177.png)
 
 这本书对应的有一个极客时间的专栏—《从零开始学架构》，里面的很多内容都是这个专栏里面的，两者买其一就可以了。我看了很小一部分，内容挺全面的，是一本真正在讲如何做架构的书籍。
-
-
 
 ## 面试
 
