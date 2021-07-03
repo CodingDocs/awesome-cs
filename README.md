@@ -263,6 +263,10 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 视频的话，你可以看看动力节点的 [《MySQL数据库教程视频》](https://www.bilibili.com/video/BV1fx411X7BD)。这个视频基本上把 MySQL的相关一些入门知识给介绍完了。
 
+另外，强推一波 [《MySQL是怎样运行的》](https://book.douban.com/subject/35231266/) 这本书，内容很适合拿来准备面试。讲的很细节，但又不枯燥，内容非常良心！
+
+![](https://img-blog.csdnimg.cn/20210703120643370.png)
+
 学习了 MySQL 之后，务必确保自己掌握下面这些知识点：
 
 1. MySQL 常用命令 ： 
