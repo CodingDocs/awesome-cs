@@ -2,8 +2,8 @@
 
 **开源的目的是为了大家能一起完善，如果你觉得内容有任何需要完善/补充的地方，欢迎提交 issue/pr。**
 
-- Github地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
-- 码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
+- Github 地址：[https://github.com/CodingDocs/awesome-cs](https://github.com/CodingDocs/awesome-cs)
+- 码云地址：[https://gitee.com/SnailClimb/awesome-cs](https://gitee.com/SnailClimb/awesome-cs) （Github 无法访问或者访问速度比较慢的小伙伴可以看码云上的对应内容）
 
 **目录** ：
 
@@ -42,9 +42,7 @@
 - [Q&A](#qa)
 - [PDF 获取](#pdf-获取)
 
-
 # 计算机基础
-
 
 这部分内容我不光会推荐书籍，还会顺便推荐一些我觉得不错的教学视频&Project。
 
@@ -52,7 +50,7 @@
 
 为什么要学习操作系统。
 
-- **从对个人能力方面提升来说**  ：操作系统中的很多思想、很多经典的算法，你都可以在我们日常开发使用的各种工具或者框架中找到它们的影子。比如说我们开发的系统使用的缓存（比如 Redis）和操作系统的高速缓存就很像。CPU 中的高速缓存有很多种，不过大部分都是为了解决 CPU 处理速度和内存处理速度不对等的问题。我们还可以把内存可以看作外存的高速缓存，程序运行的时候我们把外存的数据复制到内存，由于内存的处理速度远远高于外存，这样提高了处理速度。同样地，我们使用的 Redis 缓存就是为了解决程序处理速度和访问常规关系型数据库速度不对等的问题。高速缓存一般会按照局部性原理（2-8 原则）根据相应的淘汰算法保证缓存中的数据是经常会被访问的。我们平常使用的 Redis 缓存很多时候也会按照 2-8 原则去做，很多淘汰算法都和操作系统中的类似。既说了 2-8 原则，那就不得不提命中率了，这是所有缓存概念都通用的。简单来说也就是你要访问的数据有多少能直接在缓存中直接找到。命中率高的话，一般表明你的缓存设计比较合理，系统处理速度也相对较快。
+- **从对个人能力方面提升来说** ：操作系统中的很多思想、很多经典的算法，你都可以在我们日常开发使用的各种工具或者框架中找到它们的影子。比如说我们开发的系统使用的缓存（比如 Redis）和操作系统的高速缓存就很像。CPU 中的高速缓存有很多种，不过大部分都是为了解决 CPU 处理速度和内存处理速度不对等的问题。我们还可以把内存可以看作外存的高速缓存，程序运行的时候我们把外存的数据复制到内存，由于内存的处理速度远远高于外存，这样提高了处理速度。同样地，我们使用的 Redis 缓存就是为了解决程序处理速度和访问常规关系型数据库速度不对等的问题。高速缓存一般会按照局部性原理（2-8 原则）根据相应的淘汰算法保证缓存中的数据是经常会被访问的。我们平常使用的 Redis 缓存很多时候也会按照 2-8 原则去做，很多淘汰算法都和操作系统中的类似。既说了 2-8 原则，那就不得不提命中率了，这是所有缓存概念都通用的。简单来说也就是你要访问的数据有多少能直接在缓存中直接找到。命中率高的话，一般表明你的缓存设计比较合理，系统处理速度也相对较快。
 - **从面试角度来说** ：尤其是校招，对于操作系统方面知识的考察是非常非常多的。
 
 **简单来说，学习操作系统能够提高自己思考的深度以及对技术的理解力，并且，操作系统方面的知识也是面试必备。**
@@ -160,6 +158,8 @@ Github 上就有一些名校的计算机网络试验/Project：
 我在大二的时候被我们的一个老师强烈安利过！自己也在当时购买了一本放在宿舍，到离开大学的时候自己大概看了一半多一点。因为内容实在太多了！另外，这本书还提供了详细的 Java 代码，非常适合学习 Java 的朋友来看，可以说是 Java 程序员的必备书籍之一了。
 
 > **下面这些书籍都是经典中的经典，但是阅读起来难度也比较大，不做太多阐述，神书就完事了！**
+>
+> **如果你仅仅是准备算法面试的话，不建议你阅读下面这些书籍。**
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/s4687321.jpg)
 
@@ -197,6 +197,14 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 题目相比于《剑指 offer》 来说要难很多，题目涵盖面相比于《剑指 offer》也更加全面。全书一共有将近 300 道真实出现过的经典代码面试题。
 
+![](https://img-blog.csdnimg.cn/22ce4a17dc0c40f6a3e0d58002261b7a.png)
+
+视频的话，推荐北京大学的国家精品课程—**[程序设计与算法（二）算法基础](https://www.icourse163.org/course/PKU-1001894005)**，讲的非常好！
+
+这个课程把七种基本的通用算法（枚举、二分、递归、分治、动态规划、搜索、贪心）都介绍到了。各种复杂算法问题的解决，都可能用到这些基本的思想。
+
+并且，这个课程的一部分的例题和 ACM 国际大学生程序设计竞赛中的中等题相当，如果你能够解决这些问题，那你的算法能力将超过绝大部分的高校计算机专业本科毕业生。
+
 ## 数据结构
 
 其实，上面提到的很多算法类书籍（比如 **《算法》** 和 **《算法导论》**）都详细地介绍了常用的数据结构。
@@ -215,7 +223,13 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 质量很高，介绍了常用的数据结构和算法。
 
-类似的还有 **[《数据结构与算法分析 ：C 语言描述》](https://book.douban.com/subject/1139426/)**  、**[《数据结构与算法分析：C++ 描述》](https://book.douban.com/subject/1971825/)**
+类似的还有 **[《数据结构与算法分析 ：C 语言描述》](https://book.douban.com/subject/1139426/)** 、**[《数据结构与算法分析：C++ 描述》](https://book.douban.com/subject/1971825/)**
+
+![](https://img-blog.csdnimg.cn/d9c450ccc5224a5fba77f4fa937f7b9c.png)
+
+视频的话推荐你看浙江大学的国家精品课程—**[《数据结构》](https://www.icourse163.org/course/ZJU-93001#/info)** 。
+
+姥姥的数据结构讲的非常棒！不过，还是有一些难度的，尤其是课后练习题。
 
 # 计算机专业课
 
@@ -251,29 +265,30 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ### MySQL
 
-我们网站或 者APP 的数据都是需要使用数据库来存储数据的。
+我们网站或 者 APP 的数据都是需要使用数据库来存储数据的。
 
 一般企业项目开发中，使用 MySQL 比较多。如果你要学习 MySQL 的话，可以看下面这 3 本书籍：
 
-- **[《MySQL必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合MySQL新手阅读，很棒的入门教材。
-- **[《高性能MySQL》](https://book.douban.com/subject/23008813/)** ： MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，我建议第5章（创建高性能的索引） 、第6章（查询性能优化） 你一定要认真看一下。
-- **[《MySQL技术内幕》](https://book.douban.com/subject/24708143/)** ：你想深入了解MySQL存储引擎的话，看这本书准没错！
+- **[《MySQL 必知必会》](https://book.douban.com/subject/3354490/)** ：非常薄！非常适合 MySQL 新手阅读，很棒的入门教材。
+- **[《高性能 MySQL》](https://book.douban.com/subject/23008813/)** ： MySQL 领域的经典之作！学习 MySQL 必看！属于进阶内容，主要教你如何更好地使用 MySQL 。既有有理论，又有实践！如果你没时间都看一遍的话，我建议第 5 章（创建高性能的索引） 、第 6 章（查询性能优化） 你一定要认真看一下。
+- **[《MySQL 技术内幕》](https://book.douban.com/subject/24708143/)** ：你想深入了解 MySQL 存储引擎的话，看这本书准没错！
 
 ![](https://oscimg.oschina.net/oscnet/up-3d31e762933f9e50cc7170b2ebd8433917b.png)
 
-视频的话，你可以看看动力节点的 [《MySQL数据库教程视频》](https://www.bilibili.com/video/BV1fx411X7BD)。这个视频基本上把 MySQL的相关一些入门知识给介绍完了。
+视频的话，你可以看看动力节点的 [《MySQL 数据库教程视频》](https://www.bilibili.com/video/BV1fx411X7BD)。这个视频基本上把 MySQL 的相关一些入门知识给介绍完了。
 
-另外，强推一波 [《MySQL是怎样运行的》](https://book.douban.com/subject/35231266/) 这本书，内容很适合拿来准备面试。讲的很细节，但又不枯燥，内容非常良心！
+另外，强推一波 [《MySQL 是怎样运行的》](https://book.douban.com/subject/35231266/) 这本书，内容很适合拿来准备面试。讲的很细节，但又不枯燥，内容非常良心！
 
 ![](https://img-blog.csdnimg.cn/20210703120643370.png)
 
 学习了 MySQL 之后，务必确保自己掌握下面这些知识点：
 
-1. MySQL 常用命令 ： 
+1. MySQL 常用命令 ：
 
    - 安全：登录、增加/删除用户、备份数据和还原数据
    - 数据库操作： 建库建表/删库删表、用户权限分配
    - ......
+
 2. MySQL 中常用的数据类型、字符集编码
 3. MySQL 简单查询、条件查询、模糊查询、多表查询以及如何对查询结果排序、过滤、分组......
 4. MySQL 中使用索引、视图、存储过程、游标、触发器
@@ -288,13 +303,11 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 ### Redis
 
- **Redis 就是一个使用 C 语言开发的数据库**，不过与传统数据库不同的是 **Redis 的数据是存在内存中的** ，也就是它是内存数据库，所以读写速度非常快，因此 Redis 被广泛应用于缓存方向。
+**Redis 就是一个使用 C 语言开发的数据库**，不过与传统数据库不同的是 **Redis 的数据是存在内存中的** ，也就是它是内存数据库，所以读写速度非常快，因此 Redis 被广泛应用于缓存方向。
 
-如果你要学习 Redis 的话，强烈推荐  **[《Redis 设计与实现》](https://book.douban.com/subject/25900156/)** 和 **[《Redis 实战》](https://book.douban.com/subject/26612779/)** 这两本书。另外，**[《Redis开发与运维》](https://book.douban.com/subject/26971561/)** 这本书也非常不错，既有基础介绍，又有一线开发运维经验分享。
+如果你要学习 Redis 的话，强烈推荐 **[《Redis 设计与实现》](https://book.douban.com/subject/25900156/)** 和 **[《Redis 实战》](https://book.douban.com/subject/26612779/)** 这两本书。另外，**[《Redis 开发与运维》](https://book.douban.com/subject/26971561/)** 这本书也非常不错，既有基础介绍，又有一线开发运维经验分享。
 
 ![](https://oscimg.oschina.net/oscnet/up-9f20f5e860d143181bd27343abfef3af2ce.png)
-
-
 
 下面是我总结的一些关于并发的小问题，你可以拿来自测：
 
@@ -302,7 +315,7 @@ Github 上就有一些名校的计算机网络试验/Project：
 2. 为什么要用 Redis/为什么要用缓存？
 3. Redis 常见数据结构以及使用场景分析
 4. Redis 没有使用多线程？为什么不使用多线程？Redis6.0 之后为何引入了多线程？
-5.  Redis 给缓存数据设置过期时间有啥用？
+5. Redis 给缓存数据设置过期时间有啥用？
 6. Redis 是如何判断数据是否过期的呢？
 7. 过期的数据的删除策略了解么？
 8. Redis 内存淘汰机制了解么？
@@ -387,17 +400,17 @@ Github 上就有一些名校的计算机网络试验/Project：
 
 不过，不管前端这些技术怎么变，前端三剑客（HTML、CSS、JavaScript ）是不会变的。
 
-HTML 和 CSS 相对 JS 来说就比较简单了。你可以在 [W3school](http://www.w3school.com.cn/) 上学习一些关于  HTML、CSS、JS 的基础知识。然后，通过一个简单的前端项目来实战一下。比如你可以做一个个人简历或者模仿某某官网写个类似的网页。
+HTML 和 CSS 相对 JS 来说就比较简单了。你可以在 [W3school](http://www.w3school.com.cn/) 上学习一些关于 HTML、CSS、JS 的基础知识。然后，通过一个简单的前端项目来实战一下。比如你可以做一个个人简历或者模仿某某官网写个类似的网页。
 
-JavaScript 的水更深，也是前端面试中的重心。 
+JavaScript 的水更深，也是前端面试中的重心。
 
-学习 JS的话，[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 上的JS相关的内容是必须要看的！上面的内容很全面，质量非常高！
+学习 JS 的话，[MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript) 上的 JS 相关的内容是必须要看的！上面的内容很全面，质量非常高！
 
 除此之外，开源的 JS 教程[《The Modern JavaScript Tutorial》](https://javascript.info/)非常赞！目前的话，这个系列的教程还被翻译成了多国的语言。
 
 ![](https://img-blog.csdnimg.cn/20210409151045407.png)
 
-这个教程的内容分为3部分
+这个教程的内容分为 3 部分
 
 1. JavaScript 编程语言 ： JavaScript 入门，还会介绍 OOP 等相关高级概念。
 2. 浏览器（文档，事件，接口） ： 学习如何管理浏览器页面
@@ -413,17 +426,17 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 如果你之前没有学习过编程的话，我建议你可以看看视频教程。
 
-像尚硅谷的 [《 Java 基础教程系列》](https://www.bilibili.com/video/BV1Kb411W75N) （[点击下载视频](#资料下载-Java)）和韩顺平老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)就很不错。
+像尚硅谷的 [《 Java 基础教程系列》](https://www.bilibili.com/video/BV1Kb411W75N) （[点击下载视频](#资料下载-Java)）和韩顺平老师的[《零基础 30 天学会 Java》](https://www.bilibili.com/video/BV1fh411y7R8)就很不错。
 
 ![](https://img-blog.csdnimg.cn/20210409143842888.png)
 
 学习过 Java 的朋友，大部分应该都看过韩老师的课程吧！韩老师毕业于清华大学，录制的视频课程质量都非常高。内容易懂，并且不失严谨。
 
-韩老师的[《零基础30天学会Java》](https://www.bilibili.com/video/BV1fh411y7R8)系列不光会教你 Java 基础，还会帮你建立编程思想，让你知道学习了 Java 之后，你可以从事什么工作。
+韩老师的[《零基础 30 天学会 Java》](https://www.bilibili.com/video/BV1fh411y7R8)系列不光会教你 Java 基础，还会帮你建立编程思想，让你知道学习了 Java 之后，你可以从事什么工作。
 
 看视频的同时，配套一本好书也是非常有作用的。
 
-**[《Head First Java》](https://book.douban.com/subject/2000732/)**   这本书在是入门 Java 的很不错的书籍 。
+**[《Head First Java》](https://book.douban.com/subject/2000732/)** 这本书在是入门 Java 的很不错的书籍 。
 
 ![](https://img-blog.csdnimg.cn/20210328154409343.png)
 
@@ -437,7 +450,7 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 ![](https://img-blog.csdnimg.cn/20210328154428110.png)
 
- **[《Java 核心技术卷 1+卷 2》](https://book.douban.com/subject/34898994/)** 这两本书也非常不错。不过，这两本书的内容很多，全看的话比较费时间。我现在是把这两本书当做工具书来用，就比如我平时写文章的时候，碰到一些 Java 基础方面的问题，经常就翻看这两本来当做参考！
+**[《Java 核心技术卷 1+卷 2》](https://book.douban.com/subject/34898994/)** 这两本书也非常不错。不过，这两本书的内容很多，全看的话比较费时间。我现在是把这两本书当做工具书来用，就比如我平时写文章的时候，碰到一些 Java 基础方面的问题，经常就翻看这两本来当做参考！
 
 我当时在大学的时候就买了两本放在寝室，没事的时候就翻翻。建议有点 Java 基础之后再读，介绍的还是比较深入和全面的，非常推荐。
 
@@ -451,11 +464,9 @@ JavaScript 的水更深，也是前端面试中的重心。
 
 另外，Java 8 算是一个里程碑式的版本，现在一般企业还是用 Java 8 比较多。掌握 Java 8 的一些新特性比如 Lambda、Strean API 还是挺有必要的。这块的话，我推荐 **[《Java 8 实战》](https://book.douban.com/subject/26772632/)** 这本书。
 
-
-
 学完 Java 基础之后，你可以用自己学的东西实现一个简单的 Java 程序，也可以尝试用 Java 解决一些编程问题，以此来将自己学到的东西付诸于实践。
 
-不太建议学习 Java基础的之后通过做游戏来巩固。为什么培训班喜欢通过这种方式呢？说白点就是为了找到你的G点。新手学习完Java基础后做游戏一般是不太现实的，还不如找一些简单的程序问题解决一下比如简单的算法题。
+不太建议学习 Java 基础的之后通过做游戏来巩固。为什么培训班喜欢通过这种方式呢？说白点就是为了找到你的 G 点。新手学习完 Java 基础后做游戏一般是不太现实的，还不如找一些简单的程序问题解决一下比如简单的算法题。
 
 记得多总结！打好基础！把自己重要的东西都记录下来。 API 文档放在自己可以看到的地方，以备自己可以随时查阅。为了能让自己写出更优秀的代码，《Effective Java》、《重构》 这两本书没事也可以看看。
 
@@ -514,11 +525,11 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 11. `synchronized` 关键字、volatile 关键字
 12. `ThreadLocal` 有啥用（解决了什么问题）？怎么用？原理了解吗？内存泄露问题了解吗？
 13. 为什么要用线程池？`ThreadPoolExecutor` 类的重要参数了解吗？`ThreadPoolExecutor` 饱和策略了解吗？线程池原理了解吗？几种常见的线程池了解吗？为什么不推荐使用`FixedThreadPool`？如何设置线程池的大小？
-14. AQS了解么？原理？AQS 常用组件：`Semaphore` (信号量)、`CountDownLatch` （倒计时器） `CyclicBarrier`(循环栅栏) 
+14. AQS 了解么？原理？AQS 常用组件：`Semaphore` (信号量)、`CountDownLatch` （倒计时器） `CyclicBarrier`(循环栅栏)
 15. `ReentrantLock` 、 `ReentrantReadWriteLock` 、`StampedLock`（JDK8）
 16. CAS 了解么？原理？
 17. Atomic 原子类
-18. 并发容器：`ConcurrentHashMap` 、 `CopyOnWriteArrayList` 、 `ConcurrentLinkedQueue` `BlockingQueue`  、`ConcurrentSkipListMap`
+18. 并发容器：`ConcurrentHashMap` 、 `CopyOnWriteArrayList` 、 `ConcurrentLinkedQueue` `BlockingQueue` 、`ConcurrentSkipListMap`
 19. `Future` 和 `CompletableFuture`
 20. ......
 
@@ -532,7 +543,7 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 书籍的话，**[《深入理解 Java 虚拟机》](https://book.douban.com/subject/34907497/)** 这本书是首先要推荐的。
 
-![](https://img-blog.csdnimg.cn/20210328171039829.png)
+![](https://img-blog.csdnimg.cn/20210710104655705.png)
 
 这本书就一句话形容：**国产书籍中的战斗机，实实在在的优秀！** （真心希望国内能有更多这样的优质书籍出现！加油！💪）
 
@@ -540,25 +551,25 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 不论是你面试还是你想要在 Java 领域学习的更深，你都离不开这本书籍。这本书不光要看，你还要多看几遍，里面都是干货。这本书里面还有一些需要自己实践的东西，我建议你也跟着实践一下。
 
-类似的书籍还有 **[《实战Java虚拟机》](https://book.douban.com/subject/26354292/)**、**[《虚拟机设计与实现:以JVM为例》](https://book.douban.com/subject/34935105/)** ，这两本都是非常不错的！
+类似的书籍还有 **[《实战 Java 虚拟机》](https://book.douban.com/subject/26354292/)**、**[《虚拟机设计与实现:以 JVM 为例》](https://book.douban.com/subject/34935105/)** ，这两本都是非常不错的！
 
 ![](https://img-blog.csdnimg.cn/2021040917192618.png)
 
-如果你对实战比较感兴趣，想要自己动手写一个简易的 JVM 的话，可以看看  **[《自己动手写Java虚拟机》](https://book.douban.com/subject/26802084/)** 这本书。
+如果你对实战比较感兴趣，想要自己动手写一个简易的 JVM 的话，可以看看 **[《自己动手写 Java 虚拟机》](https://book.douban.com/subject/26802084/)** 这本书。
 
 ![](https://img-blog.csdnimg.cn/20210409170057457.png)
 
-书中的代码是基于 Go 语言实现的，搞懂了原理之后，你可以使用 Java 语言模仿着写一个，也算是练练手！ 如果你当前没有能力独立使用 Java 语言模仿着写一个的话，你也可以在网上找到很多基于 Java 语言版本的实现，比如[《zachaxy的手写JVM系列》](https://zachaxy.github.io/tags/JVM/)  。
+书中的代码是基于 Go 语言实现的，搞懂了原理之后，你可以使用 Java 语言模仿着写一个，也算是练练手！ 如果你当前没有能力独立使用 Java 语言模仿着写一个的话，你也可以在网上找到很多基于 Java 语言版本的实现，比如[《zachaxy 的手写 JVM 系列》](https://zachaxy.github.io/tags/JVM/) 。
 
-这本书目前在豆瓣有8.2的评分，我个人觉得张秀宏老师写的挺好的，这本书值得更高的评分。
+这本书目前在豆瓣有 8.2 的评分，我个人觉得张秀宏老师写的挺好的，这本书值得更高的评分。
 
-另外，R大在豆瓣发的[《从表到里学习JVM实现》](https://www.douban.com/doulist/2545443/)这篇文章中也推荐了很多不错的 JVM 相关的书籍，推荐小伙伴们去看看。
+另外，R 大在豆瓣发的[《从表到里学习 JVM 实现》](https://www.douban.com/doulist/2545443/)这篇文章中也推荐了很多不错的 JVM 相关的书籍，推荐小伙伴们去看看。
 
 再推荐两个视频给喜欢看视频学习的小伙伴。
 
-第 1 个是尚硅谷的宋红康老师讲的[《JVM全套教程》](https://www.bilibili.com/video/BV1PJ411n7xZ)。这个课程的内容非常硬，一共有接近400小节。
+第 1 个是尚硅谷的宋红康老师讲的[《JVM 全套教程》](https://www.bilibili.com/video/BV1PJ411n7xZ)。这个课程的内容非常硬，一共有接近 400 小节。
 
-课程的内容分为3部分：
+课程的内容分为 3 部分：
 
 1. 《内存与垃圾回收篇》
 2. 《字节码与类的加载篇》
@@ -570,11 +581,10 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/java-guide-blog/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MzM3Mjcy,size_16,color_FFFFFF,t_70.png)
 
-
 下面是我总结的一些关于 JVM 的小问题，你可以拿来自测：
 
 1. 什么是虚拟机？
-2.  Java 内存区域是怎么划分的？大对象放在哪个内存区域？
+2. Java 内存区域是怎么划分的？大对象放在哪个内存区域？
 3. 垃圾回收有哪些算法？GC 的流程
 4. 什么是类加载？何时类加载？类加载流程？
 5. 知道哪些类加载器。类加载器之间的关系？
@@ -584,14 +594,14 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 ## 常用工具
 
-非常重要！非常重要！特别是 Git和 Docker。
+非常重要！非常重要！特别是 Git 和 Docker。
 
-1. **IDEA** ：熟悉基本操作以及常用快捷。你可以通过Github上的开源教程 [《IntelliJ IDEA 简体中文专题教程》](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 来学习 IDEA 的使用。
+1. **IDEA** ：熟悉基本操作以及常用快捷。你可以通过 Github 上的开源教程 [《IntelliJ IDEA 简体中文专题教程》](https://github.com/judasn/IntelliJ-IDEA-Tutorial) 来学习 IDEA 的使用。
 2. **Maven** ：强烈建议学习常用框架之前可以提前花几天时间学习一下**Maven**的使用。（到处找 Jar 包，下载 Jar 包是真的麻烦费事，使用 Maven 可以为你省很多事情）。
-3. **Git** ：基本的 Git 技能也是必备的，试着在学习的过程中将自己的代码托管在 Github 上。你可以看看这篇Github上开源的 [《Git极简入门》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git) 。
-4. **Docker** ：学着用 Docker 安装学习中需要用到的软件比如 MySQL ,这样方便很多，可以为你节省不少时间。你可以看看这篇Github上开源的  [《Docker 基本概念解读》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker) 、[《一文搞懂 Docker 镜像的常用操作！》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
+3. **Git** ：基本的 Git 技能也是必备的，试着在学习的过程中将自己的代码托管在 Github 上。你可以看看这篇 Github 上开源的 [《Git 极简入门》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Git) 。
+4. **Docker** ：学着用 Docker 安装学习中需要用到的软件比如 MySQL ,这样方便很多，可以为你节省不少时间。你可以看看这篇 Github 上开源的 [《Docker 基本概念解读》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker) 、[《一文搞懂 Docker 镜像的常用操作！》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Docker-Image)
 
-除了这些工具之外，我强烈建议你一定要搞懂 Github 的使用。一些使用 Github 的小技巧，你可以看[《Github小技巧》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Github%E6%8A%80%E5%B7%A7)这篇文章。
+除了这些工具之外，我强烈建议你一定要搞懂 Github 的使用。一些使用 Github 的小技巧，你可以看[《Github 小技巧》](https://snailclimb.gitee.io/javaguide/#/docs/tools/Github%E6%8A%80%E5%B7%A7)这篇文章。
 
 ## 常用框架
 
@@ -599,11 +609,11 @@ _这本书还是非常适合我们用来学习 Java 多线程的。这本书的�
 
 **Spring 和 SpringBoot 真的很重要！**
 
- 一定要搞懂 AOP 和 IOC 这两个概念。Spring 中 bean 的作用域与生命周期、SpringMVC 工作原理详解等等知识点都是非常重要的，一定要搞懂。
+一定要搞懂 AOP 和 IOC 这两个概念。Spring 中 bean 的作用域与生命周期、SpringMVC 工作原理详解等等知识点都是非常重要的，一定要搞懂。
 
 企业中做 Java 后端，你一定离不开 SpringBoot ，这个是必备的技能了！一定一定一定要学好！
 
-像 SpringBoot 和一些常见技术的整合你也要知识怎么做，比如 SpringBoot 整合MyBatis、 ElasticSearch、SpringSecurity、Redis等等。
+像 SpringBoot 和一些常见技术的整合你也要知识怎么做，比如 SpringBoot 整合 MyBatis、 ElasticSearch、SpringSecurity、Redis 等等。
 
 下面是一些比较推荐的书籍/专栏。
 
@@ -698,8 +708,6 @@ O'Reilly 家族书，性能调优的入门书，我个人觉得性能调优是�
 看过很多网站架构方面的书籍，比如《大型网站技术架构：核心原理与案例分析》、《亿级流量网站架构核心技术》、《架构修炼之道——亿级网关、平台开放、分布式、微服务、容错等核心技术修炼实践》等等。
 
 目前我觉得能推荐的只有李运华老师的**[《从零开始学架构》](https://book.douban.com/subject/30335935/)** 这本。
-
-
 
 ![](https://img-blog.csdnimg.cn/20210412224443177.png)
 
@@ -873,24 +881,20 @@ Java 程序员必看！
 
 打包下载（涵盖上面提到的大部分书籍）。没有解压密码！没有解压密码！没有解压密码！
 
-扫描下面的二维码或者微信搜索 “**Github掘金计划**” 关注后回复“**书籍**”即可获取下载地址。
+扫描下面的二维码或者微信搜索 “**Github 掘金计划**” 关注后回复“**书籍**”即可获取下载地址。
 
 <img src="https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images-2@main/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/qrcode_for_gh_8b9b6034ac19_258.jpg" style="text-align:right"/>
 
 ## 资料下载-Java
 
-
-
 ![](https://oscimg.oschina.net/oscnet/up-67e0a8d1ce659a022b7b6db5163ba0f7aeb.png)
-
-
 
 ![](https://img-blog.csdnimg.cn/20210412205837522.png)
 
-Java PDF书籍（涵盖上面提到的大部分书籍）打包下载。没有解压密码！没有解压密码！没有解压密码！
+Java PDF 书籍（涵盖上面提到的大部分书籍）打包下载。没有解压密码！没有解压密码！没有解压密码！
 
 扫描下面的二维码或者微信搜索 “**JavaGuide**” 关注后回复“**书籍**”即可获取下载地址。
 
-尚硅谷2021 Java全套视频学习资料 后台回复“**视频**” 获取。
+尚硅谷 2021 Java 全套视频学习资料 后台回复“**视频**” 获取。
 
 ![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
