@@ -3,7 +3,7 @@
 <div align="center">
     <p>
         <a href="https://www.yuque.com/docs/share/8a30ffb5-83f3-40f9-baf9-38de68b906dc">
-            <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
+            <img src="https://oss.javaguide.cn/xingqiu/xingqiu.png" style="margin: 0 auto; width: 850px;" />
         </a>
     </p>
     <p>  
@@ -20,10 +20,12 @@
 
 由于项目内容过多，阅读起来不太方便，我已将其同步到了自己网站：
 
-- [计算机基础](https://javaguide.cn/books/cs-basics.html)
-- [数据库](https://javaguide.cn/books/database.html)
-- [搜索引擎](https://javaguide.cn/books/search-engine.html)
-- [Java](https://javaguide.cn/books/java.html)
-- [软件质量](https://javaguide.cn/books/software-quality.html)
+- [计算机基础必读经典书籍](https://javaguide.cn/books/cs-basics.html)
+- [数据库必读经典书籍](https://javaguide.cn/books/database.html)
+- [搜索引擎必读经典书籍](https://javaguide.cn/books/search-engine.html)
+- [Java 必读经典书籍](https://javaguide.cn/books/java.html)
+- [软件质量必读经典书籍](https://javaguide.cn/books/software-quality.html)
+- [分布式必读经典书籍](https://javaguide.cn/books/distributed-system.html)
 
-![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/image-20220701153046400.png)
+![](https://oss.javaguide.cn/github/javaguide/image-20220701153046400.jpg)
+
